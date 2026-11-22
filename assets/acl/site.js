@@ -58,11 +58,54 @@ const table = document.querySelector("main table");
         if (event.target === dialog && (event.clientX < bounds.left || event.clientX > bounds.right ||
             event.clientY < bounds.top || event.clientY > bounds.bottom)) dialog.close();
       });
+      const fmPositions = JSON.parse(data.positions || "{}") || {};
+      // Coordinates use the attacking team's perspective, with the opponent's goal at the top.
+      const spots = {
+        GK:[60,146,"门将"], DL:[18,122,"左后卫"], DC:[60,122,"中后卫"], DR:[102,122,"右后卫"],
+        WBL:[18,101,"左翼卫"], DM:[60,101,"后腰"], WBR:[102,101,"右翼卫"],
+        ML:[18,79,"左前卫"], MC:[60,79,"中前卫"], MR:[102,79,"右前卫"],
+        AML:[18,51,"左边锋"], AMC:[60,51,"前腰"], AMR:[102,51,"右边锋"], ST:[60,22,"中锋"]
+      };
+      const gradeNames = {Natural:"自然", Accomplished:"熟练", Competent:"胜任", Unconvincing:"生疏", Awkward:"勉强"};
+      const graphic = dialog.querySelector(".fm-figure");
+      const svg = graphic.querySelector("svg");
+      function svgNode(tag, attrs = {}) {
+        const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+        for (const [key, value] of Object.entries(attrs)) el.setAttribute(key, value);
+        return el;
+      }
+      function drawPositions(english) {
+        const record = fmPositions[english];
+        const markers = svg.querySelector(".fm-markers");
+        markers.replaceChildren();
+        graphic.hidden = !record;
+        if (!record) return;
+        const descriptions = [];
+        for (const [code, [x, y, name]] of Object.entries(spots)) {
+          const score = record.scores?.[code];
+          const grade = record.grades?.[code];
+          if (score == null && !grade && !record.listed?.includes(code)) continue;
+          const label = score ?? gradeNames[grade] ?? code;
+          const desc = name + (label === code ? "" : " " + label);
+          descriptions.push(desc);
+          const mark = svgNode("g", {transform: "translate(" + x + " " + y + ")"});
+          const title = svgNode("title");
+          title.textContent = desc;
+          const strong = score >= 18 || grade === "Natural";
+          const box = svgNode("rect", {x:-13, y:-8, width:26, height:16, rx:4, fill:strong ? "#c6ed73" : "#eff6dc"});
+          const text = svgNode("text", {y:3.5});
+          text.textContent = label;
+          mark.append(title, box, text);
+          markers.append(mark);
+        }
+        svg.setAttribute("aria-label", "FM27 位置适应度：" + descriptions.join("，"));
+      }
       function showRecord(row) {
         const cells = row.cells;
         const values = Array.from(cells, cell => cell.textContent.trim());
         const [date, name, english, position] = values;
         const player = players[english];
+        drawPositions(english);
         const note = notes[date + "|" + english] || {};
         const portrait = dialog.querySelector(".portrait");
         portrait.hidden = !player?.portrait;
@@ -72,8 +115,18 @@ const table = document.querySelector("main table");
         const copyCell = cell => Array.from(cell.childNodes, node => node.cloneNode(true));
         dialog.querySelector(".meta").replaceChildren(...copyCell(cells[4]), ...copyCell(cells[5]), " · " + position);
         const years = player?.birthday ? ageOnDate(player.birthday, date) : null;
-        dialog.querySelector(".facts p").textContent = [player?.nationality, player?.birthday && player.birthday + " 出生",
-          years !== null && "受伤时 " + years + " 岁"].filter(Boolean).join("　·　");
+        const facts = dialog.querySelector(".facts p");
+        const nationality = document.createElement("span");
+        nationality.textContent = player?.nationality ?? "";
+        addImage(nationality, player?.flag);
+        nationality.classList.add("nationality");
+        const personalDetails = [player?.birthday && player.birthday + " 出生",
+          years !== null && "受伤时 " + years + " 岁"].filter(Boolean);
+        facts.replaceChildren(...(player?.nationality ? [nationality] : []));
+        for (const detail of personalDetails) {
+          if (facts.hasChildNodes()) facts.append("　·　");
+          facts.append(detail);
+        }
         dialog.querySelector("#event").textContent = date + " · " + (note.event || values[8]);
         dialog.querySelector("#injury").textContent = values[7];
         dialog.querySelector("#attribution").textContent = note.injurySource || "";

@@ -71,3 +71,22 @@ dialog ul { padding-left:1.3em; margin:4px 0 }
 dialog section a { display:block; width:fit-content; padding:5px 0 }
 @media(max-width:600px) { dialog {width:calc(100% - 24px);max-height:calc(100dvh - 32px)} dialog article {padding:16px 20px} dialog header {padding:4px 16px} }
 .record-row { cursor: pointer; }
+
+.record-top { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:16px; padding-bottom:16px; border-bottom:1px solid var(--line); }
+.record-top .facts { border:0; padding:0; }
+.record-bio { min-width:0; overflow-wrap:anywhere; }
+.record-bio .meta { flex-wrap:wrap; }
+.fm-figure { width:130px; margin:0; }
+.fm-figure figcaption { display:flex; justify-content:space-between; font-size:12px; font-weight:600; color:var(--muted); }
+.fm-pitch { display:block; width:100%; height:auto; }
+.fm-pitch text { fill:#112e1e; font:700 10px system-ui,sans-serif; text-anchor:middle; }
+@media(max-width:600px) {
+  .record-top { gap:10px; align-items:start; }
+  .fm-figure { width:clamp(92px,26vw,122px); }
+  .record-bio .profile { flex-wrap:wrap; gap:6px; }
+  .record-bio .portrait { width:48px; height:48px; }
+  .record-bio h2 { font-size:22px; }
+}
+
+dialog .nationality { white-space: nowrap; }
+dialog .nationality img { width: 20px; height: 15px; object-fit: contain; }

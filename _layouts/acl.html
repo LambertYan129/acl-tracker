@@ -20,14 +20,31 @@
   <dialog id="record" aria-labelledby="record-name">
     <header><strong>球员伤病记录</strong><button type="button" aria-label="关闭伤病记录">×</button></header>
     <article>
-      <div class="profile"><img class="portrait" alt=""><div><h2 id="record-name"></h2><div id="english"></div></div></div>
+      <div class="record-top">
+        <div class="record-bio">
+          <div class="profile"><img class="portrait" alt=""><div><h2 id="record-name"></h2><div id="english"></div></div></div>
       <div class="facts"><div class="meta"></div><p></p></div>
+      </div>
+        <figure class="fm-figure" hidden>
+          <figcaption>FM27 位置 <span title="进攻方向朝上">↑</span></figcaption>
+          <svg class="fm-pitch" viewBox="0 0 120 160" role="img">
+            <rect width="120" height="160" rx="5" fill="#326947"/>
+            <g fill="none" stroke="#b6d7bb" stroke-width="1">
+              <rect x="5" y="5" width="110" height="150"/>
+              <path d="M5 80h110 M32 5v22h56V5 M46 5v9h28V5 M32 155v-22h56v22 M46 155v-9h28v9"/>
+              <circle cx="60" cy="80" r="14"/>
+            </g>
+            <g class="fm-markers"></g>
+          </svg>
+        </figure>
+      </div>
       <section><h3>受伤经过</h3><p id="event"></p></section>
       <section><h3>具体伤情</h3><p id="injury"></p><small id="attribution"></small></section>
       <section><h3>公告与报道</h3><div id="sources"></div></section>
     </article>
   </dialog>
   <div id="season-data" hidden
+    data-positions="{{ site.data.fm27_positions | jsonify | escape }}"
     data-players="{{ site.data.players | jsonify | escape }}"
     data-badges="{{ site.data.badges | jsonify | escape }}"
     data-notes="{{ site.data.injury_notes | jsonify | escape }}"></div>

@@ -1,0 +1,306 @@
+{
+  "Laurent Abergel": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/85057862/laurent-abergel",
+    "scores": {
+      "DL": 10,
+      "DR": 12,
+      "WBL": 10,
+      "WBR": 12,
+      "DM": 17,
+      "MC": 20,
+      "MR": 10
+    }
+  },
+  "Roony Bardghji": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/2000088490/roony-bardghji",
+    "scores": {
+      "ML": 8,
+      "MR": 16,
+      "AML": 12,
+      "AMC": 12,
+      "AMR": 20,
+      "ST": 14
+    }
+  },
+  "Maik Nawrocki": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/96129436/maik-nawrocki",
+    "scores": {
+      "DC": 20,
+      "DR": 12,
+      "WBR": 10,
+      "DM": 10
+    }
+  },
+  "Giannis Konstantelias": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/36159280/giannis-konstantelias",
+    "scores": {
+      "ML": 12,
+      "MC": 14,
+      "MR": 9,
+      "AML": 15,
+      "AMC": 20,
+      "AMR": 10
+    }
+  },
+  "Antoine Mendy": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/2000130977/antoine-mendy",
+    "scores": {
+      "DC": 18,
+      "DR": 20,
+      "WBR": 15
+    }
+  },
+  "Kamil Grabara": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/96085886/kamil-grabara",
+    "scores": {
+      "GK": 20
+    }
+  },
+  "Tiago Santos": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/83283239/tiago-santos",
+    "scores": {
+      "DR": 20,
+      "WBR": 18,
+      "ML": 5,
+      "MR": 15,
+      "AML": 12,
+      "AMR": 16
+    }
+  },
+  "Luiz Felipe": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/19225765/luiz-felipe",
+    "scores": {
+      "DC": 20
+    }
+  },
+  "Khvicha Kvaratskhelia": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/59130638/khvicha-kvaratskhelia",
+    "scores": {
+      "ML": 14,
+      "MR": 10,
+      "AML": 20,
+      "AMC": 15,
+      "AMR": 11,
+      "ST": 12
+    }
+  },
+  "Désiré Doué": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/2000115202/desire-doue",
+    "scores": {
+      "ML": 11,
+      "MC": 14,
+      "MR": 14,
+      "AML": 17,
+      "AMC": 18,
+      "AMR": 20,
+      "ST": 14
+    }
+  },
+  "Amadou Onana": {
+    "scores": {
+      "DM": 20,
+      "MC": 20,
+      "AMC": 12
+    },
+    "source": "用户提供的搜猪 FM 27.10 截图"
+  },
+  "Christantus Uche": {
+    "source": "https://efem.club/players/2000304487-Christantus-Uche",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DC": 10,
+      "DM": 14,
+      "ML": 12,
+      "MC": 18,
+      "MR": 12,
+      "AML": 14,
+      "AMC": 20,
+      "AMR": 14,
+      "ST": 18
+    }
+  },
+  "Assane Dioussé": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/43141845/assane-diousse",
+    "scores": {
+      "DM": 20,
+      "MC": 17
+    }
+  },
+  "Chadi Riad": {
+    "source": "https://efem.club/players/2000058232-Chadi-Riad",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DL": 14,
+      "DC": 20,
+      "DR": 10,
+      "DM": 12,
+      "WBL": 10
+    }
+  },
+  "Enzo Leopold": {
+    "source": "https://efem.club/players/91208180-Enzo-Leopold",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DC": 12,
+      "DR": 10,
+      "DM": 20,
+      "WBR": 10,
+      "ML": 12,
+      "MC": 20,
+      "MR": 12,
+      "AML": 12,
+      "AMC": 14,
+      "AMR": 12,
+      "ST": 10
+    }
+  },
+  "Mikel Rodríguez": {
+    "source": "https://efem.club/players/2000219415-Mikel-Rodr%C3%ADguez",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DM": 10,
+      "ML": 15,
+      "MC": 20,
+      "AML": 12,
+      "AMC": 15
+    }
+  },
+  "Facundo Garcés": {
+    "source": "https://efem.club/players/14187538-Facundo-Garc%C3%A9s",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DC": 20
+    }
+  },
+  "Julen Lobete": {
+    "source": "https://efem.club/players/67262369-Julen-Lobete",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "AML": 17,
+      "AMC": 14,
+      "AMR": 15,
+      "ST": 20
+    }
+  },
+  "Thijs Dallinga": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/37070210/thijs-dallinga",
+    "scores": {
+      "AML": 12,
+      "AMC": 14,
+      "AMR": 12,
+      "ST": 20
+    }
+  },
+  "Nicolai Remberg": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/2000036575/nicolai-remberg",
+    "scores": {
+      "DC": 14,
+      "DR": 10,
+      "WBL": 8,
+      "WBR": 12,
+      "DM": 20,
+      "ML": 10,
+      "MC": 20,
+      "MR": 12,
+      "AML": 10,
+      "AMC": 14,
+      "AMR": 12,
+      "ST": 8
+    }
+  },
+  "Fedde Leysen": {
+    "source": "https://efem.club/players/18111492-Fedde-Leysen",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DL": 13,
+      "DC": 20,
+      "DM": 12,
+      "WBL": 13,
+      "ML": 12
+    }
+  },
+  "Gorka Guruzeta": {
+    "source": "https://efem.club/players/67200930-Gorka-Guruzeta",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "ML": 11,
+      "MR": 12,
+      "AML": 17,
+      "AMC": 12,
+      "AMR": 18,
+      "ST": 20
+    }
+  },
+  "Álvaro Mantilla": {
+    "source": "https://efem.club/players/2000040352-%C3%81lvaro-Mantilla",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DL": 13,
+      "DC": 18,
+      "DR": 20,
+      "WBL": 10,
+      "WBR": 15
+    }
+  },
+  "Alfonso González（Alfon）": {
+    "source": "https://sortitoutsi.net/football-manager-2027/person/67255218/alfon",
+    "scores": {
+      "DL": 9,
+      "WBL": 12,
+      "ML": 17,
+      "MR": 15,
+      "AML": 20,
+      "AMC": 12,
+      "AMR": 17,
+      "ST": 13
+    }
+  },
+  "Àlex Calatrava": {
+    "source": "https://efem.club/players/2000132470-%C3%80lex-Calatrava",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "ML": 10,
+      "MC": 14,
+      "MR": 12,
+      "AML": 13,
+      "AMC": 18,
+      "AMR": 20,
+      "ST": 10
+    }
+  },
+  "Mohamed Ouédraogo": {
+    "source": "https://efem.club/players/12094919-Mohamed-Ou%C3%A9draogo",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DL": 19,
+      "WBL": 20,
+      "ML": 18
+    }
+  },
+  "Mattia Felici": {
+    "source": "https://efem.club/players/43458488-Mattia-Felici",
+    "version": "27.0.0",
+    "conversion": "floor(positionProficiency / 5)",
+    "scores": {
+      "DL": 10,
+      "WBL": 15,
+      "ML": 20,
+      "MR": 14,
+      "AML": 20,
+      "AMC": 15,
+      "AMR": 15,
+      "ST": 15
+    }
+  }
+}
