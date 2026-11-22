@@ -1,0 +1,1191 @@
+{
+  "2025-07-16|Mitchell Weiser": {
+    "nationality": "德国",
+    "flag": "assets/acl/flags/de.webp",
+    "age": 31,
+    "event": "不来梅下午队训时伤及右膝，随后接受 MRI。受伤时俱乐部写为 31 岁。",
+    "injury": "右膝十字韧带撕裂，公告措辞未区分前后束。",
+    "noticeDate": "2025-07-16",
+    "originalDate": "2025-07-17",
+    "extraUrl": "https://www.werder.de/news/maenner/2025-2026/mitchell-weiser-erfolgreich-operiert-190725",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/92016244-Mitchell-Weiser",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 10,
+        "DC": 8,
+        "DR": 18,
+        "DM": 12,
+        "WBL": 12,
+        "WBR": 20,
+        "ML": 10,
+        "MC": 15,
+        "MR": 15,
+        "AML": 10,
+        "AMC": 15,
+        "AMR": 15,
+        "ST": 8
+      }
+    },
+    "birthday": "1994-04-21",
+    "portrait": "assets/acl/players/fm-92016244.webp",
+    "portraitSource": "https://www.geniescout.com/scope/92016244.png"
+  },
+  "2025-07-19|Logan Costa": {
+    "nationality": "佛得角",
+    "flag": "assets/acl/flags/cv.webp",
+    "age": 25,
+    "event": "季前首场友谊赛对巴塞尔时受伤。",
+    "injury": "左膝前十字韧带完全断裂；8 月 5 日完成手术。",
+    "noticeDate": "2025-07-21",
+    "originalDate": "2025-07-21",
+    "extraUrl": "https://villarrealcf.es/es/parte-medico-willy-kambwala-y-logan-costa/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/49039003-Logan-Costa",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DC": 20
+      }
+    },
+    "birthday": "2001-04-01",
+    "portrait": "assets/acl/players/fm-49039003.webp",
+    "portraitSource": "https://www.geniescout.com/scope/49039003.png"
+  },
+  "2025-07-24|Mitchel Bakker": {
+    "nationality": "荷兰",
+    "flag": "assets/acl/flags/nl.webp",
+    "age": 25,
+    "event": "亚特兰大队训中受伤。",
+    "injury": "右膝前十字韧带断裂；7 月 28 日重建并缝合外侧半月板。",
+    "noticeDate": "2025-07-25",
+    "originalDate": "2025-07-24",
+    "extraUrl": "https://www.atalanta.it/news/mitchel-bakker-aggiornamento-bollettino-medico",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/37063645-Mitchel-Bakker",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 20,
+        "DC": 15,
+        "DM": 10,
+        "WBL": 18,
+        "ML": 14
+      }
+    },
+    "birthday": "2000-06-20",
+    "portrait": "assets/acl/players/fm-37063645.webp",
+    "portraitSource": "https://www.geniescout.com/scope/37063645.png"
+  },
+  "日期待查|Adam Webster": {
+    "nationality": "英格兰",
+    "flag": "assets/acl/flags/gb-eng.webp",
+    "age": 30,
+    "event": "在西班牙马贝拉的季前集训中训练受伤。Pete O’Rourke 于 7 月 25 日报道，布莱顿翌日发布伤情更新，具体受伤日期未公开。",
+    "injury": "据 Pete O’Rourke 报道为前十字韧带（ACL）损伤。布莱顿确认膝韧带损伤并将安排手术。左右膝未公开。",
+    "noticeDate": "2025-07-25",
+    "originalDate": "2025-07-25",
+    "extraUrl": "https://www.footballinsider247.com/exclusive-brighton-rocked-by-adam-webster-acl-injury-at-pre-season-camp",
+    "extraLabel": "查看报道",
+    "links": [
+      {
+        "label": "查看记者原帖",
+        "url": "https://x.com/SportsPeteO/status/1948856729795789253"
+      }
+    ],
+    "positions": {
+      "source": "https://efem.club/players/29080394-Adam-Webster",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DC": 20,
+        "DR": 11
+      }
+    },
+    "birthday": "1995-01-04",
+    "portrait": "assets/acl/players/fm-29080394.webp",
+    "portraitSource": "https://www.geniescout.com/scope/29080394.png"
+  },
+  "2025-07-30|Unai Egiluz": {
+    "nationality": "西班牙",
+    "flag": "assets/acl/flags/es.webp",
+    "age": 23,
+    "event": "季前友谊赛对桑坦德竞技时扭伤，第 28 分钟被换下；7 月 31 日先公布扭伤。",
+    "injury": "右膝前十字韧带断裂；8 月 6 日手术。同一球员 2026 年 5 月另有右膝伤情公告。",
+    "noticeDate": "2025-08-05",
+    "originalDate": "2025-07-31",
+    "extraUrl": "https://www.athletic-club.eus/noticias/2025/07/31/parte-medico-de-aitor-paredes-y-unai-egiluz/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000066197-Unai-Egu%C3%ADluz",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DC": 20
+      }
+    },
+    "birthday": "2002-03-19",
+    "portrait": "assets/acl/players/fm-2000066197.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000066197.png"
+  },
+  "2025-08-03|James Maddison": {
+    "nationality": "英格兰",
+    "flag": "assets/acl/flags/gb-eng.webp",
+    "age": 28,
+    "event": "首尔季前友谊赛对纽卡斯尔联时受伤。",
+    "injury": "右膝前十字韧带断裂，俱乐部宣布将手术。",
+    "noticeDate": "2025-08-07",
+    "originalDate": "2025-08-03",
+    "extraUrl": "https://www.bbc.co.uk/sport/football/articles/cwy53dzlr8qo",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/28093567-James-Maddison",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "ML": 16,
+        "MC": 15,
+        "MR": 12,
+        "AML": 16,
+        "AMC": 20,
+        "AMR": 16,
+        "ST": 8
+      }
+    },
+    "birthday": "1996-11-23",
+    "portrait": "assets/acl/players/fm-28093567.webp",
+    "portraitSource": "https://www.geniescout.com/scope/28093567.png"
+  },
+  "日期待查|Levi Colwill": {
+    "nationality": "英格兰",
+    "flag": "assets/acl/flags/gb-eng.webp",
+    "age": 22,
+    "event": "回到科巴姆参加季前集训后在训练中受伤；官方未给出准确受伤日。",
+    "injury": "前十字韧带损伤，8 月 7 日手术成功；官方未披露左右膝。",
+    "noticeDate": "2025-08-07",
+    "originalDate": "2025-08-04",
+    "extraUrl": "https://www.bbc.co.uk/sport/football/articles/cp37qdvd3gko",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/28124573-Levi-Colwill",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 15,
+        "DC": 20,
+        "WBL": 12
+      }
+    },
+    "birthday": "2003-02-26",
+    "portrait": "assets/acl/players/fm-28124573.webp",
+    "portraitSource": "https://www.geniescout.com/scope/28124573.png"
+  },
+  "2025-08-15|Tomáš Suslov": {
+    "nationality": "斯洛伐克",
+    "flag": "assets/acl/flags/sk.webp",
+    "age": 23,
+    "event": "训练结束时扭伤；意大利文初报写明 8 月 16 日发布、伤在前一天。",
+    "injury": "左膝前十字韧带断裂；8 月 18 日重建。",
+    "noticeDate": "2025-08-16",
+    "originalDate": "2025-08-16",
+    "extraUrl": "https://www.hellasverona.it/en/news/medical-report-update-tomas-suslov?cat=476",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/37076659-Tom%C3%A1%C5%A1-Suslov",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DM": 14,
+        "ML": 14,
+        "MC": 18,
+        "MR": 14,
+        "AML": 15,
+        "AMC": 20,
+        "AMR": 17,
+        "ST": 12
+      }
+    },
+    "birthday": "2002-06-07",
+    "portrait": "assets/acl/players/fm-37076659.webp",
+    "portraitSource": "https://www.geniescout.com/scope/37076659.png"
+  },
+  "2025-08-17|Ousmane Touré": {
+    "nationality": "法国",
+    "flag": "assets/acl/flags/fr.webp",
+    "age": 21,
+    "event": "法甲对布雷斯特时伤退。",
+    "injury": "右膝前十字韧带断裂，需要手术。",
+    "noticeDate": "2025-08-20",
+    "originalDate": "2025-08-17",
+    "positions": {
+      "source": "https://efem.club/players/2000129410-Ousmane-Tour%C3%A9",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DC": 20,
+        "DR": 16
+      }
+    },
+    "birthday": "2005-02-18",
+    "portrait": "assets/acl/players/fm-2000129410.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000129410.png"
+  },
+  "2025-08-19|Matija Frigan": {
+    "nationality": "克罗地亚",
+    "flag": "assets/acl/flags/hr.webp",
+    "age": 22,
+    "event": "上午在科莱基奥训练基地扭伤左膝，下午检查。",
+    "injury": "左膝前十字韧带断裂，随后重建。",
+    "noticeDate": "2025-08-19",
+    "originalDate": "2025-08-19",
+    "extraUrl": "https://www.parmacalcio1913.com/flash-news/comunicato-matija-frigan/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000078339-Matija-Frigan",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "AML": 13,
+        "AMR": 13,
+        "ST": 20
+      }
+    },
+    "birthday": "2003-02-11",
+    "portrait": "assets/acl/players/fm-2000078339.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000078339.png"
+  },
+  "2025-08-23|Koki Machida": {
+    "nationality": "日本",
+    "flag": "assets/acl/flags/jp.webp",
+    "age": 27,
+    "event": "德甲首轮客场对勒沃库森时受伤；町田浩树的球员名拼写为 Koki Machida。",
+    "injury": "左膝十字韧带撕裂；Sky Sport 的报道未在该条细分前后束。",
+    "noticeDate": "2025-08-24",
+    "originalDate": "2025-08-23",
+    "extraUrl": "https://bulinews.com/hoffenheim-suffer-double-injury-blow",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/45100974-Koki-Machida",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 14,
+        "DC": 20,
+        "DM": 10,
+        "WBL": 10
+      }
+    },
+    "birthday": "1997-08-25",
+    "portrait": "assets/acl/players/fm-45100974.webp",
+    "portraitSource": "https://www.geniescout.com/scope/45100974.png"
+  },
+  "日期待查|Beñat Prados": {
+    "nationality": "西班牙",
+    "flag": "assets/acl/flags/es.webp",
+    "age": 25,
+    "event": "9 月 10 日初报称他在前一周队训扭伤左膝；9 月 13 日对阿拉维斯时已经缺阵，具体训练日未公布。",
+    "injury": "左膝前十字韧带断裂，以俱乐部 9 月 15 日检查结果为准。",
+    "noticeDate": "2025-09-15",
+    "originalDate": "2025-09-13",
+    "extraUrl": "https://www.athletic-club.eus/noticias/2025/09/10/parte-medico-de-benat-prados/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/67277835-Be%C3%B1at-Prados",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DC": 15,
+        "DM": 20,
+        "MC": 19
+      }
+    },
+    "birthday": "2001-02-08",
+    "portrait": "assets/acl/players/fm-67277835.webp",
+    "portraitSource": "https://www.geniescout.com/scope/67277835.png"
+  },
+  "2025-09-13|Leart Paçarada": {
+    "nationality": "科索沃",
+    "flag": "assets/acl/flags/xk.webp",
+    "age": 31,
+    "event": "海登海姆首秀，德甲对多特蒙德约第 5 分钟受伤，周一 MRI 确诊。",
+    "injury": "俱乐部确认十字韧带撕裂；Gazeta Express 报为左膝前十字韧带。",
+    "noticeDate": "2025-09-15",
+    "originalDate": "2025-09-13",
+    "extraUrl": "https://www.gazetaexpress.com/de/Der-Verein-best%C3%A4tigte-au%C3%9Ferdem--dass-sich-Paqarada-das-vordere-Kreuzband-im-linken-Knie-gerissen-hat./",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/91108276-Leart-Pa%C3%A7arada",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 20,
+        "DC": 12,
+        "DM": 12,
+        "WBL": 18,
+        "ML": 12,
+        "MC": 10,
+        "AML": 10
+      }
+    },
+    "birthday": "1994-10-08",
+    "portrait": "assets/acl/players/fm-91108276.webp",
+    "portraitSource": "https://www.geniescout.com/scope/91108276.png"
+  },
+  "2025-09-21|Tariq Lamptey": {
+    "nationality": "加纳",
+    "flag": "assets/acl/flags/gh.webp",
+    "age": 24,
+    "event": "意甲对科莫，上半场伤退；9 月 24 日接受诊断性关节镜检查。",
+    "injury": "左膝前十字韧带单独撕裂，随即完成重建。",
+    "noticeDate": "2025-09-24",
+    "originalDate": "2025-09-21",
+    "extraUrl": "https://football-italia.net/fiorentina-confirm-acl-injury-to-lamptey/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/28112993-Tariq-Lamptey",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 15,
+        "DR": 20,
+        "WBL": 15,
+        "WBR": 20,
+        "ML": 14,
+        "MR": 18,
+        "AML": 11,
+        "AMR": 12
+      }
+    },
+    "birthday": "2000-09-30",
+    "portrait": "assets/acl/players/fm-28112993.webp",
+    "portraitSource": "https://www.geniescout.com/scope/28112993.png"
+  },
+  "2025-09-23|Giovanni Leoni": {
+    "nationality": "意大利",
+    "flag": "assets/acl/flags/it.webp",
+    "age": 18,
+    "event": "联赛杯对南安普顿，利物浦首秀第 81 分钟在边线争抢后落地不稳。",
+    "injury": "前十字韧带断裂。媒体报道为左膝，利物浦后续称还有其他膝部组织受累，未列明具体结构。",
+    "noticeDate": "2025-09-26",
+    "originalDate": "2025-09-23",
+    "extraUrl": "https://www.bbc.co.uk/sport/football/articles/c701lx5x4e7o",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000259904-Giovanni-Leoni",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DC": 20
+      }
+    },
+    "birthday": "2006-12-21",
+    "portrait": "assets/acl/players/fm-2000259904.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000259904.png"
+  },
+  "2025-09-27|Andrea Belotti": {
+    "nationality": "意大利",
+    "flag": "assets/acl/flags/it.webp",
+    "age": 31,
+    "event": "意甲对国际米兰时膝部受伤。",
+    "injury": "左膝前十字韧带损伤；10 月 1 日重建成功。",
+    "noticeDate": "2025-09-28",
+    "originalDate": "2025-09-27",
+    "extraUrl": "https://cagliaricalcio.com/news/intervento-chirurgico-per-andrea-belotti/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/43066936-Andrea-Belotti",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "ST": 20
+      }
+    },
+    "birthday": "1993-12-20",
+    "portrait": "assets/acl/players/fm-43066936.webp",
+    "portraitSource": "https://www.geniescout.com/scope/43066936.png"
+  },
+  "日期待查|Edoardo Pieragnolo": {
+    "nationality": "意大利",
+    "flag": "assets/acl/flags/it.webp",
+    "age": 23,
+    "event": "俱乐部称右膝于公告前数日扭伤；具体日期及比赛或训练场景未见公告明确。",
+    "injury": "右膝前十字韧带损伤；10 月 9 日重建。",
+    "noticeDate": "2025-10-03",
+    "originalDate": "2025-10-01",
+    "extraUrl": "https://www.sassuolocalcio.it/prima-squadra/intervento-chirurgico-per-edoardo-pieragnolo/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/43500623-Edoardo-Pieragnolo",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 20,
+        "WBL": 19
+      }
+    },
+    "birthday": "2003-01-03",
+    "portrait": "assets/acl/players/fm-43500623.webp",
+    "portraitSource": "https://www.geniescout.com/scope/43500623.png"
+  },
+  "2025-10-10|Ilias Kostis": {
+    "nationality": "希腊",
+    "flag": "assets/acl/flags/gr.webp",
+    "age": 22,
+    "event": "马竞一线队在利比亚班加西与国际米兰踢友谊赛，他在比赛中受伤。",
+    "injury": "左膝前十字韧带断裂，俱乐部另发手术公告。",
+    "noticeDate": "2025-10-11",
+    "originalDate": "2025-10-10",
+    "extraUrl": "https://www.atleticodemadrid.com/noticias/ilias-kostis-intervenido-de-la-rotura-del-ligamento-cruzado-anterior-en-la-rodilla-izquierda",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000049483-Ilias-Kostis",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 15,
+        "DC": 20,
+        "DM": 15
+      }
+    },
+    "birthday": "2003-02-27",
+    "portrait": "assets/acl/players/fm-2000049483.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000049483.png"
+  },
+  "2025-10-10|Antoni Milambo": {
+    "nationality": "荷兰",
+    "flag": "assets/acl/flags/nl.webp",
+    "age": 20,
+    "event": "荷兰 U21 欧青赛预选赛对波黑 U21 时受伤。",
+    "injury": "前十字韧带损伤，11 月初完成重建；俱乐部通报未披露左右膝。",
+    "noticeDate": "2025-10-15",
+    "originalDate": "2025-10-10",
+    "extraUrl": "https://www.vi.nl/nieuws/milambo-moet-operatie-ondergaan-wegens-kruisbandblessure",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000054475-Antoni-Milambo",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DM": 11,
+        "ML": 12,
+        "MC": 18,
+        "AML": 12,
+        "AMC": 20
+      }
+    },
+    "birthday": "2005-04-03",
+    "portrait": "assets/acl/players/fm-2000054475.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000054475.png"
+  },
+  "2025-10-29|Iker Benito": {
+    "nationality": "西班牙",
+    "flag": "assets/acl/flags/es.webp",
+    "age": 23,
+    "event": "国王杯对圣霍尔迪时受伤。",
+    "injury": "右膝前十字韧带断裂；术报载有 ACL 重建及半月板缝合。",
+    "noticeDate": "2025-10-30",
+    "originalDate": "2025-10-29",
+    "extraUrl": "https://www.osasuna.es/iker-benito-parte-medico-intervenido-cun",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/67288316-Iker-Benito",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DR": 12,
+        "ML": 18,
+        "MR": 16,
+        "AML": 20,
+        "AMR": 18,
+        "ST": 12
+      }
+    },
+    "birthday": "2002-08-10",
+    "portrait": "assets/acl/players/fm-67288316.webp",
+    "portraitSource": "https://www.geniescout.com/scope/67288316.png"
+  },
+  "2025-11-19|Portu": {
+    "nationality": "西班牙",
+    "flag": "assets/acl/flags/es.webp",
+    "age": 33,
+    "event": "赫罗纳星期三队训时受伤。",
+    "injury": "左膝前十字韧带损伤；Europa Press 于 11 月 20 日转述俱乐部诊断。",
+    "noticeDate": "2025-11-20",
+    "originalDate": "2025-11-19",
+    "extraUrl": "https://www.gironafc.cat/es/noticias/michel-sanchez-al-final-de-la-primera-vuelta-debemos-estar-fuera-del-descenso",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/67115581-Portu",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DR": 10,
+        "DM": 8,
+        "WBR": 12,
+        "ML": 10,
+        "MC": 12,
+        "MR": 14,
+        "AML": 16,
+        "AMC": 18,
+        "AMR": 20,
+        "ST": 10
+      }
+    },
+    "birthday": "1992-05-21",
+    "portrait": "assets/acl/players/fm-67115581.webp",
+    "portraitSource": "https://www.geniescout.com/scope/67115581.png"
+  },
+  "日期待查|Fábio Carvalho": {
+    "nationality": "葡萄牙",
+    "flag": "assets/acl/flags/pt.webp",
+    "age": 23,
+    "event": "布伦特福德主帅称约在公告前一周训练中受伤；11 月 20 日为公布日。",
+    "injury": "前十字韧带损伤，需要手术；公开通报未披露侧别。",
+    "noticeDate": "2025-11-20",
+    "originalDate": "2025-11-20",
+    "extraUrl": "https://www.brentfordfc.com/en/news/match-previews-brighton-and-hove-albion-v-brentford-premier-league-22-11-2025",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/28122195-F%C3%A1bio-Carvalho",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "ML": 12,
+        "MC": 11,
+        "MR": 12,
+        "AML": 18,
+        "AMC": 20,
+        "AMR": 15,
+        "ST": 15
+      }
+    },
+    "birthday": "2002-08-30",
+    "portrait": "assets/acl/players/fm-28122195.webp",
+    "portraitSource": "https://www.geniescout.com/scope/28122195.png"
+  },
+  "2025-11-03|Bence Dárdai": {
+    "nationality": "匈牙利",
+    "flag": "assets/acl/flags/hu.webp",
+    "age": 19,
+    "event": "对霍芬海姆的联赛次日进行补充训练时，在一次看似普通的动作中伤膝。",
+    "injury": "俱乐部 11 月 23 日宣布需手术。匈牙利公共体育台 M4 Sport 援引《踢球者》称左膝前十字韧带断裂，原录为右膝。",
+    "noticeDate": "2025-11-23",
+    "originalDate": "2025-11-23",
+    "extraUrl": "https://m4sport.hu/kulfoldi-foci/cikk/2025/11/24/sajtohir-dardai-bence-terdeben-elszakadt-az-elulso-keresztszalag-a-szezonban-mar-nem-jatszhat/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000215183-Bence-D%C3%A1rdai",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DM": 16,
+        "ML": 10,
+        "MC": 20,
+        "MR": 10,
+        "AML": 10,
+        "AMC": 18,
+        "AMR": 10,
+        "ST": 10
+      }
+    },
+    "birthday": "2006-01-24",
+    "portrait": "assets/acl/players/fm-2000215183.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000215183.png"
+  },
+  "2025-12-03|Stefanos Tzimas": {
+    "nationality": "希腊",
+    "flag": "assets/acl/flags/gr.webp",
+    "age": 19,
+    "event": "英超对阿斯顿维拉时在上半场中段伤退；12 月 5 日已有初报。",
+    "injury": "俱乐部随后确认前十字韧带损伤，赛季报销；右膝为原录，所查公告未明确侧别。",
+    "noticeDate": "2025-12-12",
+    "originalDate": "2025-12-03",
+    "extraUrl": "https://www.brightonandhovealbion.com/media-article/mft-injury-update-stefanos-tzimas-bha-west-ham-pl-december-2025",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000227373-Stefanos-Tzimas",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "AML": 12,
+        "AMC": 12,
+        "AMR": 12,
+        "ST": 20
+      }
+    },
+    "birthday": "2006-01-06",
+    "portrait": "assets/acl/players/fm-2000227373.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000227373.png"
+  },
+  "2025-12-03|Mattia Felici": {
+    "nationality": "意大利",
+    "flag": "assets/acl/flags/it.webp",
+    "age": 24,
+    "event": "意大利杯对那不勒斯时扭伤左膝。",
+    "injury": "左膝前十字韧带损伤，随后手术；与 26–27 赛季右膝伤分开记录。",
+    "noticeDate": "2025-12-05",
+    "originalDate": "2025-12-03",
+    "extraUrl": "https://cagliaricalcio.com/en/news/medical-report-surgery-for-mattia-felici/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/43458488-Mattia-Felici",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 10,
+        "WBL": 15,
+        "ML": 20,
+        "MR": 14,
+        "AML": 20,
+        "AMC": 15,
+        "AMR": 15,
+        "ST": 15
+      }
+    },
+    "birthday": "2001-04-17",
+    "portrait": "assets/acl/players/mattia-felici.webp",
+    "portraitSource": "https://www.geniescout.com/scope/43458488.png"
+  },
+  "2025-12-20|Andreas Christensen": {
+    "nationality": "丹麦",
+    "flag": "assets/acl/flags/dk.webp",
+    "age": 29,
+    "event": "周六队训中扭伤左膝。",
+    "injury": "左膝前十字韧带部分撕裂。",
+    "noticeDate": "2025-12-21",
+    "originalDate": "2025-12-20",
+    "extraUrl": "https://www.fcbarcelona.com/en/football/first-team/news/4508852/christensen-returns-after-158-days-out",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/27066387-Andreas-Christensen",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DC": 20,
+        "DR": 10,
+        "DM": 15,
+        "MC": 8
+      }
+    },
+    "birthday": "1996-04-10",
+    "portrait": "assets/acl/players/fm-27066387.webp",
+    "portraitSource": "https://www.geniescout.com/scope/27066387.png"
+  },
+  "2025-12-21|Takumi Minamino": {
+    "nationality": "日本",
+    "flag": "assets/acl/flags/jp.webp",
+    "age": 30,
+    "event": "法国杯六十四强客场对欧塞尔时伤及左膝。",
+    "injury": "左膝前十字韧带断裂。",
+    "noticeDate": "2025-12-22",
+    "originalDate": "2025-12-21",
+    "positions": {
+      "source": "https://efem.club/players/45064891-Takumi-Minamino",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "ML": 14,
+        "MC": 14,
+        "MR": 14,
+        "AML": 18,
+        "AMC": 20,
+        "AMR": 15,
+        "ST": 13
+      }
+    },
+    "birthday": "1995-01-16",
+    "portrait": "assets/acl/players/fm-45064891.webp",
+    "portraitSource": "https://www.geniescout.com/scope/45064891.png"
+  },
+  "2025-12-27|Josh Cullen": {
+    "nationality": "爱尔兰",
+    "flag": "assets/acl/flags/ie.webp",
+    "age": 29,
+    "event": "英超主场与埃弗顿 0–0，下半场开局伤及右膝。",
+    "injury": "扫描确认右膝前十字韧带损伤，俱乐部宣布将手术。",
+    "noticeDate": "2025-12-30",
+    "originalDate": "2025-12-27",
+    "extraUrl": "https://www.bbc.co.uk/sport/football/articles/ckgk1rk6505o",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/28087685-Josh-Cullen",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DM": 20,
+        "MC": 20
+      }
+    },
+    "birthday": "1996-04-07",
+    "portrait": "assets/acl/players/fm-28087685.webp",
+    "portraitSource": "https://www.geniescout.com/scope/28087685.png"
+  },
+  "2026-01-03|Mohammed Salisu": {
+    "nationality": "加纳",
+    "flag": "assets/acl/flags/gh.webp",
+    "age": 26,
+    "event": "法甲对里昂的比赛尾声伤及左膝。",
+    "injury": "左膝前十字韧带断裂。",
+    "noticeDate": "2026-01-05",
+    "originalDate": "2026-01-03",
+    "extraUrl": "https://ghanasportsonline.com/mohammed-salisu-returns-to-monaco-squad-after-long-injury-layoff/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/67270690-Mohammed-Salisu",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 14,
+        "DC": 20
+      }
+    },
+    "birthday": "1999-04-17",
+    "portrait": "assets/acl/players/fm-67270690.webp",
+    "portraitSource": "https://www.geniescout.com/scope/67270690.png"
+  },
+  "2026-01-11|Javi Puado": {
+    "nationality": "西班牙",
+    "flag": "assets/acl/flags/es.webp",
+    "age": 27,
+    "event": "西甲客场对莱万特时受伤。",
+    "injury": "右膝前十字韧带断裂；1 月 15 日手术成功。",
+    "noticeDate": "2026-01-12",
+    "originalDate": "2026-01-11",
+    "extraUrl": "https://www.rcdespanyol.com/en/new/puado-operat-amb-exit/19694",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/67222737-Javi-Puado",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "ML": 14,
+        "MR": 10,
+        "AML": 20,
+        "AMC": 18,
+        "AMR": 16,
+        "ST": 19
+      }
+    },
+    "birthday": "1998-05-25",
+    "portrait": "assets/acl/players/fm-67222737.webp",
+    "portraitSource": "https://www.geniescout.com/scope/67222737.png"
+  },
+  "2026-01-18|Hamza Igamane": {
+    "nationality": "摩洛哥",
+    "flag": "assets/acl/flags/ma.webp",
+    "age": 23,
+    "event": "非洲杯决赛摩洛哥对塞内加尔，加时替补出场后伤退。",
+    "injury": "里尔确认右膝前十字韧带断裂。",
+    "noticeDate": "2026-01-19",
+    "originalDate": "2026-01-18",
+    "extraUrl": "https://www.lequipe.fr/Football/Actualites/Lille-confirme-une-rupture-du-ligament-croise-anterieur-pour-hamza-igamane-sorti-touche-a-un-genou-en-finale-de-la-can/1634935",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000120348-Hamza-Igamane",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "AML": 14,
+        "AMR": 10,
+        "ST": 20
+      }
+    },
+    "birthday": "2002-11-02",
+    "portrait": "assets/acl/players/fm-2000120348.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000120348.png"
+  },
+  "2026-01-26|Alessandro Zanoli": {
+    "nationality": "意大利",
+    "flag": "assets/acl/flags/it.webp",
+    "age": 25,
+    "event": "意甲对维罗纳，上半场受伤后继续比赛，下半场进球。",
+    "injury": "右膝前十字韧带损伤；1 月 28 日接受手术。",
+    "noticeDate": "2026-01-28",
+    "originalDate": "2026-01-27",
+    "extraUrl": "https://www.ansa.it/sito/notizie/sport/calcio/2026/01/28/zanoli-operato-al-crociato-circa-sei-mesi-per-il-recupero_055dd19a-9a08-41f7-8d68-5a4fed54615b.html",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/43390940-Alessandro-Zanoli",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 13,
+        "DC": 15,
+        "DR": 20,
+        "WBL": 10,
+        "WBR": 20,
+        "MR": 14
+      }
+    },
+    "birthday": "2000-10-03",
+    "portrait": "assets/acl/players/fm-43390940.webp",
+    "portraitSource": "https://www.geniescout.com/scope/43390940.png"
+  },
+  "2026-02-10|Wilson Odobert": {
+    "nationality": "法国",
+    "flag": "assets/acl/flags/fr.webp",
+    "age": 21,
+    "event": "英超对纽卡斯尔联的上半场受伤。",
+    "injury": "左膝前十字韧带断裂。",
+    "noticeDate": "2026-02-12",
+    "originalDate": "2026-02-10",
+    "extraUrl": "https://www.tottenhamhotspur.com/news/1182782/de-zerbi-on-when-tosin-bergvall-mudryk-and-savio-could-return",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000102722-Wilson-Odobert",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "ML": 20,
+        "MR": 18,
+        "AML": 20,
+        "AMR": 18,
+        "ST": 14
+      }
+    },
+    "birthday": "2004-11-28",
+    "portrait": "assets/acl/players/fm-2000102722.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000102722.png"
+  },
+  "2026-02-21|Álvaro Odriozola": {
+    "nationality": "西班牙",
+    "flag": "assets/acl/flags/es.webp",
+    "age": 30,
+    "event": "西甲在阿诺埃塔对皇家奥维耶多时扭伤左膝。",
+    "injury": "左膝前十字韧带断裂，俱乐部安排手术。",
+    "noticeDate": "2026-02-22",
+    "originalDate": "2026-02-21",
+    "extraUrl": "https://as.com/futbol/primera/odriozola-progresa-en-su-recuperacion-f202611-n/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/67199408-%C3%81lvaro-Odriozola",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 9,
+        "DR": 20,
+        "WBL": 9,
+        "WBR": 19
+      }
+    },
+    "birthday": "1995-12-14",
+    "portrait": "assets/acl/players/fm-67199408.webp",
+    "portraitSource": "https://www.geniescout.com/scope/67199408.png"
+  },
+  "2026-02-28|Emre Can": {
+    "nationality": "德国",
+    "flag": "assets/acl/flags/de.webp",
+    "age": 32,
+    "event": "德甲对拜仁慕尼黑的上半场受伤。",
+    "injury": "左膝十字韧带撕裂；俱乐部后续明确为前十字韧带。",
+    "noticeDate": "2026-03-01",
+    "originalDate": "2026-02-28",
+    "extraUrl": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/9/10/Defensive-Duo-Back-for-the-Bundesliga-Match-Against-Paderborn.html",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/92021718-Emre-Can",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 12,
+        "DC": 20,
+        "DR": 12,
+        "DM": 18,
+        "WBL": 10,
+        "WBR": 10,
+        "ML": 8,
+        "MC": 15,
+        "MR": 8,
+        "AMC": 10
+      }
+    },
+    "birthday": "1994-01-12",
+    "portrait": "assets/acl/players/fm-92021718.webp",
+    "portraitSource": "https://www.geniescout.com/scope/92021718.png"
+  },
+  "2026-03-02|Rodrygo": {
+    "nationality": "巴西",
+    "flag": "assets/acl/flags/br.webp",
+    "age": 25,
+    "event": "西甲对赫塔费后膝部疼痛，次日接受检查。",
+    "injury": "右膝前十字韧带及外侧半月板断裂；3 月 10 日手术。",
+    "noticeDate": "2026-03-03",
+    "originalDate": "2026-03-02",
+    "extraUrl": "https://www.realmadrid.com/en-US/news/football/first-team/medical-reports/nuevo-parte-medico-rodrygo",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/19306929-Rodrygo",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "ML": 10,
+        "MR": 12,
+        "AML": 20,
+        "AMC": 14,
+        "AMR": 18,
+        "ST": 15
+      }
+    },
+    "birthday": "2001-01-09",
+    "portrait": "assets/acl/players/fm-19306929.webp",
+    "portraitSource": "https://www.geniescout.com/scope/19306929.png"
+  },
+  "2026-03-07|Riyad Idrissi": {
+    "nationality": "意大利",
+    "flag": "assets/acl/flags/it.webp",
+    "age": 20,
+    "event": "意甲对科莫时替补登场，随后因膝伤被换下。",
+    "injury": "左膝前十字韧带损伤；3 月 24 日重建成功。",
+    "noticeDate": "2026-03-11",
+    "originalDate": "2026-03-07",
+    "extraUrl": "https://cagliaricalcio.com/news/match-report-cagliari-como-1-2/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000103852-Riyad-Idrissi",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 20,
+        "DC": 8,
+        "WBL": 19,
+        "ML": 16,
+        "AML": 8
+      }
+    },
+    "birthday": "2005-06-13",
+    "portrait": "assets/acl/players/fm-2000103852.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000103852.png"
+  },
+  "2026-03-26|Joaquín Panichelli": {
+    "nationality": "阿根廷",
+    "flag": "assets/acl/flags/ar.webp",
+    "age": 23,
+    "event": "阿根廷国家队集训期间训练受伤；球员后来回顾确认日期。",
+    "injury": "据转引的阿根廷足协医疗通报，右膝前十字韧带断裂。",
+    "noticeDate": "2026-03-27",
+    "originalDate": "2026-03-26",
+    "extraUrl": "https://www.tycsports.com/seleccion-argentina/panichelli-scaloni-seleccion-argentina-id766770.html",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000096364-Joaqu%C3%ADn-Panichelli",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "AMC": 10,
+        "ST": 20
+      }
+    },
+    "birthday": "2002-10-07",
+    "portrait": "assets/acl/players/fm-2000096364.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000096364.png"
+  },
+  "2026-03-26|Keke Topp": {
+    "nationality": "德国",
+    "flag": "assets/acl/flags/de.webp",
+    "age": 22,
+    "event": "不来梅周四训练中受伤，当天下午做 MRI。",
+    "injury": "左膝前十字韧带断裂，缺席赛季剩余比赛。",
+    "noticeDate": "2026-03-26",
+    "originalDate": "2026-03-26",
+    "extraUrl": "https://www.bundesliga.com/de/bundesliga/news/werder-verliert-topp-kreuzbandriss-im-training-bestatigt-36631",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000085414-Keke-Topp",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "AML": 10,
+        "AMC": 14,
+        "AMR": 10,
+        "ST": 20
+      }
+    },
+    "birthday": "2004-03-25",
+    "portrait": "assets/acl/players/fm-2000085414.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000085414.png"
+  },
+  "日期待查|Stephan Zagadou": {
+    "nationality": "法国",
+    "flag": "assets/acl/flags/fr.webp",
+    "age": 17,
+    "event": "勒阿弗尔训练时受伤；4 月 24 日是报道日，所查报道未给出训练的确切日期。",
+    "injury": "报道指膝部十字韧带受伤，未明确侧别和前后束。",
+    "noticeDate": "2026-04-24",
+    "originalDate": "2026-04-24",
+    "extraUrl": "https://www.leparisien.fr/sports/football/ligue-1/ligue-1-grosse-blessure-pour-lespoir-du-havre-stephan-zagadou-24-04-2026-OVV2RHK47VFPJB3PNHXMDWZBTU.php",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000475043-Stephan-Zagadou",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 12,
+        "DC": 20
+      }
+    },
+    "birthday": "2008-10-24",
+    "portrait": "assets/acl/players/fm-2000475043.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000475043.png"
+  },
+  "2026-04-25|Xavi Simons": {
+    "nationality": "荷兰",
+    "flag": "assets/acl/flags/nl.webp",
+    "age": 23,
+    "event": "英超客场对狼队，下半场受伤后被换下。",
+    "injury": "右膝前十字韧带断裂，后来完成手术。",
+    "noticeDate": "2026-04-27",
+    "originalDate": "2026-04-25",
+    "extraUrl": "https://www.tottenhamhotspur.com/news/1064344/xavi-simons-undergoes-surgery-on-knee-injury",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/67288555-Xavi-Simons",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DM": 10,
+        "ML": 14,
+        "MC": 19,
+        "MR": 14,
+        "AML": 17,
+        "AMC": 20,
+        "AMR": 17,
+        "ST": 14
+      }
+    },
+    "birthday": "2003-04-21",
+    "portrait": "assets/acl/players/fm-67288555.webp",
+    "portraitSource": "https://www.geniescout.com/scope/67288555.png"
+  },
+  "2026-05-17|Fabiano Parisi": {
+    "nationality": "意大利",
+    "flag": "assets/acl/flags/it.webp",
+    "age": 25,
+    "event": "意甲对尤文图斯时受伤；次日上午进一步检查。",
+    "injury": "佛罗伦萨通报经 Sky Sport 转引为右膝前十字韧带损伤，当天重建成功；原录为左膝。",
+    "noticeDate": "2026-05-18",
+    "originalDate": "2026-05-17",
+    "extraUrl": "https://www.ansa.it/sito/notizie/sport/calcio/2026/05/18/fiorentina-parisi-operato-per-una-lesione-al-crociato_fa57f898-f23c-498d-86a1-57902bfe3994.html",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/43429372-Fabiano-Parisi",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DL": 20,
+        "DR": 10,
+        "WBL": 19,
+        "WBR": 7,
+        "ML": 15,
+        "AML": 13
+      }
+    },
+    "birthday": "2000-11-09",
+    "portrait": "assets/acl/players/fm-43429372.webp",
+    "portraitSource": "https://www.geniescout.com/scope/43429372.png"
+  },
+  "2026-05-24|Diego López": {
+    "nationality": "西班牙",
+    "flag": "assets/acl/flags/es.webp",
+    "age": 24,
+    "event": "西甲末轮在梅斯塔利亚对巴塞罗那时受伤。",
+    "injury": "右膝前十字韧带损伤；6 月 10 日手术成功。",
+    "noticeDate": "2026-05-24",
+    "originalDate": "2026-05-24",
+    "extraUrl": "https://www.valenciacf.com/parte-medico-diego-lopez5",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000055904-Diego-L%C3%B3pez",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DR": 10,
+        "WBR": 10,
+        "ML": 16,
+        "MR": 15,
+        "AML": 19,
+        "AMC": 10,
+        "AMR": 20,
+        "ST": 17
+      }
+    },
+    "birthday": "2002-05-13",
+    "portrait": "assets/acl/players/fm-2000055904.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000055904.png"
+  },
+  "2026-06-26|Manuel Ugarte": {
+    "nationality": "乌拉圭",
+    "flag": "assets/acl/flags/uy.webp",
+    "age": 25,
+    "event": "世界杯小组赛乌拉圭对西班牙，上半场伤退；按比赛当地日期为 6 月 26 日。",
+    "injury": "曼联初报膝韧带损伤。EFE 报道左膝十字韧带断裂，后续媒体报道为前十字韧带。",
+    "noticeDate": "2026-06-28",
+    "originalDate": "2026-06-27",
+    "extraUrl": "https://efe.com/deportes/2026-06-28/manuel-ugarte-rotura-ligamentos-cruzados-uruguay/",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/78084541-Manuel-Ugarte",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DM": 18,
+        "MC": 20,
+        "AMC": 5
+      }
+    },
+    "birthday": "2001-04-11",
+    "portrait": "assets/acl/players/fm-78084541.webp",
+    "portraitSource": "https://www.geniescout.com/scope/78084541.png"
+  },
+  "2026-02-09|Samu Aghehowa": {
+    "nationality": "西班牙",
+    "flag": "assets/acl/flags/es.webp",
+    "age": 21,
+    "event": "葡超对葡萄牙体育的比赛中受伤；2 月 10 日见诊断报道。",
+    "injury": "右膝前十字韧带完全断裂；2 月 18 日在马德里手术。",
+    "noticeDate": "2026-02-10",
+    "originalDate": "2026-02-10",
+    "filterLeague": "其他",
+    "extraUrl": "https://www.abola.pt/noticias/fc-porto-samu-operado-com-sucesso-2026021811215919047",
+    "extraLabel": "补充来源",
+    "positions": {
+      "source": "https://efem.club/players/2000211219-Samu-Aghehowa",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "AMR": 9,
+        "ST": 20
+      }
+    },
+    "birthday": "2004-05-05",
+    "portrait": "assets/acl/players/fm-2000211219.webp",
+    "portraitSource": "https://www.geniescout.com/scope/2000211219.png"
+  },
+  "2026-04-04|Jerdy Schouten": {
+    "nationality": "荷兰",
+    "flag": "assets/acl/flags/nl.webp",
+    "age": 29,
+    "event": "荷甲对乌得勒支时受伤。",
+    "injury": "PSV 确认十字韧带损伤且需手术；公告未细分前后束和左右膝。",
+    "noticeDate": "2026-04-05",
+    "originalDate": "2026-04-04",
+    "filterLeague": "其他",
+    "positions": {
+      "source": "https://efem.club/players/37057744-Jerdy-Schouten",
+      "version": "27.0.0",
+      "conversion": "floor(positionProficiency / 5)",
+      "scores": {
+        "DC": 18,
+        "DM": 20,
+        "MC": 17,
+        "AMC": 5
+      }
+    },
+    "birthday": "1997-01-12",
+    "portrait": "assets/acl/players/fm-37057744.webp",
+    "portraitSource": "https://www.geniescout.com/scope/37057744.png"
+  }
+}

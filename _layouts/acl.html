@@ -4,10 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: "26-27赛季五大联赛ACL伤病统计" | escape }}</title>
-  <link rel="stylesheet" href="assets/acl/site.css">
+  <link rel="stylesheet" href="{{ '/assets/acl/site.css' | relative_url }}">
 </head>
 <body>
   <main>
+    <div class="season-heading"><details class="season-picker">
+      <summary>{{ page.season | escape }} 赛季</summary>
+      <span class="season-links">
+        <a href="{{ '/' | relative_url }}"{% unless page.historical %} aria-current="page"{% endunless %}>2026–27 赛季</a>
+        <a href="{{ '/2025-26/' | relative_url }}"{% if page.historical %} aria-current="page"{% endif %}>2025–26 赛季</a>
+      </span>
+    </details><h1>五大联赛 ACL 伤病统计</h1></div>
     <div class="tools" hidden>
       <input type="search" aria-label="搜索球员或球队" placeholder="搜索球员或球队">
       <select aria-label="按联赛筛选"><option value="">全部联赛</option></select>
@@ -44,10 +51,13 @@
     </article>
   </dialog>
   <div id="season-data" hidden
+    data-asset-base="{{ '/' | relative_url }}"
+    {% if page.historical %}data-history-badges="{{ site.data.badges_2025_26 | jsonify | escape }}"{% endif %}
+    data-history="{{ site.data.season_2025_26 | jsonify | escape }}"
     data-positions="{{ site.data.fm27_positions | jsonify | escape }}"
     data-players="{{ site.data.players | jsonify | escape }}"
     data-badges="{{ site.data.badges | jsonify | escape }}"
     data-notes="{{ site.data.injury_notes | jsonify | escape }}"></div>
-  <script src="assets/acl/site.js"></script>
+  <script src="{{ '/assets/acl/site.js' | relative_url }}"></script>
 </body>
 </html>
