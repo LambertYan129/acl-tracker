@@ -8,13 +8,17 @@ const table = document.querySelector("main table");
       const data = document.querySelector("#season-data").dataset;
       const players = JSON.parse(data.players) || {};
       const badges = JSON.parse(data.badges) || {};
-      const notes = JSON.parse(data.notes) || {};
+      const historicalBadges = JSON.parse(data.historyBadges || "{}");
+      const notes = { ...JSON.parse(data.notes), ...JSON.parse(data.history || "{}") };
+      function assetUrl(src) {
+        return src?.startsWith("assets/") ? data.assetBase.replace(/\/$/, "") + "/" + src : src;
+      }
       function addImage(cell, src, portrait = false) {
         if (!src) return;
         const identity = document.createElement("span");
         identity.className = "identity";
         const image = new Image();
-        image.src = src;
+        image.src = assetUrl(src);
         image.alt = "";
         if (portrait) image.className = "portrait";
         identity.append(image, document.createTextNode(cell.textContent.trim()));
@@ -31,15 +35,21 @@ const table = document.querySelector("main table");
       table.tHead.rows[0].cells[6].before(birthdayHeading);
       for (const row of rows) {
         const cells = row.cells;
-        const player = players[cells[2].textContent.trim()];
-        addImage(cells[1], player?.portrait, true);
-        addImage(cells[4], badges.clubs[cells[4].textContent.trim()]);
-        addImage(cells[5], badges.leagues[cells[5].textContent.trim()]);
+        const english = cells[2].textContent.trim();
+        const club = cells[4].textContent.trim();
+        const leagueName = cells[5].textContent.trim();
+        const note = notes[cells[0].textContent.trim() + "|" + english];
+        const player = { ...players[english], ...note };
+        row.dataset.league = note?.filterLeague || leagueName;
+        addImage(cells[1], player.portrait, true);
+        addImage(cells[4], historicalBadges.clubs?.[club] || badges.clubs[club]);
+        addImage(cells[5], historicalBadges.leagues?.[leagueName] || badges.leagues[leagueName]);
         const birthday = row.insertCell(6);
         birthday.className = "birthday";
         birthday.textContent = player?.birthday ?? "—";
-        if (player) {
-          const years = ageOnDate(player.birthday, cells[0].textContent.trim());
+        const years = note?.age ?? (player?.birthday ? ageOnDate(player.birthday, cells[0].textContent.trim()) : null);
+        if (years !== null && !player?.birthday) birthday.textContent = years + " 岁";
+        if (player?.birthday) {
           if (years !== null) {
             const age = document.createElement("span");
             age.className = "age";
@@ -61,10 +71,10 @@ const table = document.querySelector("main table");
       const fmPositions = JSON.parse(data.positions || "{}") || {};
       // Coordinates use the attacking team's perspective, with the opponent's goal at the top.
       const spots = {
-        GK:[60,146,"门将"], DL:[18,122,"左后卫"], DC:[60,122,"中后卫"], DR:[102,122,"右后卫"],
-        WBL:[18,101,"左翼卫"], DM:[60,101,"后腰"], WBR:[102,101,"右翼卫"],
-        ML:[18,79,"左前卫"], MC:[60,79,"中前卫"], MR:[102,79,"右前卫"],
-        AML:[18,51,"左边锋"], AMC:[60,51,"前腰"], AMR:[102,51,"右边锋"], ST:[60,22,"中锋"]
+        GK:[60,140,"门将"], DL:[18,116,"左后卫"], DC:[60,116,"中后卫"], DR:[102,116,"右后卫"],
+        WBL:[18,92,"左翼卫"], DM:[60,92,"后腰"], WBR:[102,92,"右翼卫"],
+        ML:[18,68,"左前卫"], MC:[60,68,"中前卫"], MR:[102,68,"右前卫"],
+        AML:[18,44,"左边锋"], AMC:[60,44,"前腰"], AMR:[102,44,"右边锋"], ST:[60,20,"中锋"]
       };
       const gradeNames = {Natural:"自然", Accomplished:"熟练", Competent:"胜任", Unconvincing:"生疏", Awkward:"勉强"};
       const graphic = dialog.querySelector(".fm-figure");
@@ -74,8 +84,7 @@ const table = document.querySelector("main table");
         for (const [key, value] of Object.entries(attrs)) el.setAttribute(key, value);
         return el;
       }
-      function drawPositions(english) {
-        const record = fmPositions[english];
+      function drawPositions(record) {
         const markers = svg.querySelector(".fm-markers");
         markers.replaceChildren();
         graphic.hidden = !record;
@@ -104,38 +113,40 @@ const table = document.querySelector("main table");
         const cells = row.cells;
         const values = Array.from(cells, cell => cell.textContent.trim());
         const [date, name, english, position] = values;
-        const player = players[english];
-        drawPositions(english);
         const note = notes[date + "|" + english] || {};
+        const player = { ...players[english], ...note };
+        drawPositions(note.positions || fmPositions[english]);
         const portrait = dialog.querySelector(".portrait");
         portrait.hidden = !player?.portrait;
-        if (player?.portrait) portrait.src = player.portrait;
+        if (player?.portrait) portrait.src = assetUrl(player.portrait);
         dialog.querySelector("#record-name").textContent = name;
         dialog.querySelector("#english").textContent = english;
         const copyCell = cell => Array.from(cell.childNodes, node => node.cloneNode(true));
         dialog.querySelector(".meta").replaceChildren(...copyCell(cells[4]), ...copyCell(cells[5]), " · " + position);
-        const years = player?.birthday ? ageOnDate(player.birthday, date) : null;
+        const years = note.age ?? (player?.birthday ? ageOnDate(player.birthday, date) : null);
         const facts = dialog.querySelector(".facts p");
         const nationality = document.createElement("span");
-        nationality.textContent = player?.nationality ?? "";
-        addImage(nationality, player?.flag);
+        nationality.textContent = note.nationality ?? player?.nationality ?? "";
+        addImage(nationality, note.flag ?? player?.flag);
         nationality.classList.add("nationality");
         const personalDetails = [player?.birthday && player.birthday + " 出生",
           years !== null && "受伤时 " + years + " 岁"].filter(Boolean);
-        facts.replaceChildren(...(player?.nationality ? [nationality] : []));
+        facts.replaceChildren(...(nationality.textContent ? [nationality] : []));
         for (const detail of personalDetails) {
           if (facts.hasChildNodes()) facts.append("　·　");
           facts.append(detail);
         }
-        dialog.querySelector("#event").textContent = date + " · " + (note.event || values[8]);
-        dialog.querySelector("#injury").textContent = values[7];
+        dialog.querySelector("#event").textContent = date + " · " + (note.event || values[8]) + (note.noticeDate ? "（公告或报道：" + note.noticeDate + "）" : "");
+        dialog.querySelector("#injury").textContent = note.injury || values[7];
         dialog.querySelector("#attribution").textContent = note.injurySource || "";
         const links = Array.from(cells[9].querySelectorAll("a"), link => link.cloneNode(true));
         if (links.length && note.sourceLabel) links[0].textContent = note.sourceLabel;
-        if (note.extraLabel && /^https?:\/\//i.test(note.extraUrl)) {
+        const supplemental = [{label: note.extraLabel, url: note.extraUrl}, ...(note.links || [])];
+        for (const {label, url} of supplemental) {
+          if (!label || !/^https?:\/\//i.test(url)) continue;
           const extra = document.createElement("a");
-          extra.href = note.extraUrl;
-          extra.textContent = note.extraLabel;
+          extra.href = url;
+          extra.textContent = label;
           links.push(extra);
         }
         for (const link of links) { link.target = "_blank"; link.rel = "noopener"; }
@@ -162,9 +173,11 @@ const table = document.querySelector("main table");
       const leagues = new Set();
       for (const row of rows) {
         Array.from(row.cells).slice(3, 9).forEach((cell, i) => cell.dataset.label = i === 3 ? "生日" : headings[i + 3]);
-        leagues.add(row.cells[5].textContent.trim());
+        leagues.add(row.dataset.league);
       }
+      const other = leagues.delete("其他");
       for (const name of leagues) league.add(new Option(name, name));
+      if (other) league.add(new Option("其他", "其他"));
       const scroll = document.createElement("div");
       scroll.className = "scroll";
       scroll.tabIndex = 0;
@@ -177,7 +190,7 @@ const table = document.querySelector("main table");
         let visible = 0;
         for (const row of rows) {
           const matchesName = [1, 2, 4].some(i => row.cells[i].textContent.toLocaleLowerCase().includes(query));
-          row.hidden = !matchesName || (league.value !== "" && row.cells[5].textContent.trim() !== league.value);
+          row.hidden = !matchesName || (league.value !== "" && row.dataset.league !== league.value);
           if (!row.hidden) visible++;
         }
         count.textContent = visible === rows.length ? "共 " + visible + " 条记录" : visible + " / " + rows.length + " 条记录";
