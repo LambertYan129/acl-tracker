@@ -128,3 +128,8 @@
   nationality: "西班牙"
   portrait: "assets/acl/players/alex-calatrava.webp"
   portraitSource: "https://www.geniescout.com/scope/2000132470.png"
+"Désiré Doué":
+  birthday: "2005-06-03"
+  nationality: "法国"
+  portrait: "assets/acl/players/desire-doue.webp"
+  portraitSource: "https://www.geniescout.com/scope/2000115202.png"

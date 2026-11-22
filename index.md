@@ -6,7 +6,7 @@ layout: acl
 
 | 日期 | 球员 | 球员英文名 | 球员位置 | 球队 | 联赛 | 受伤位置 | 受伤信息 | 公告 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-06 | 阿马杜-奥纳纳 | Amadou Onana | 中场 | 阿斯顿维拉 | 英超 | 右膝前十字韧带 | 比赛（世界杯，比利时对美国） | [查看公告](https://www.reuters.com/sports/soccer/belgiums-onana-suffers-world-cup-ending-knee-injury-against-us-2026-07-07/) |
+| 2026-07-06 | 阿马杜-奥纳纳 | Amadou Onana | 中场 | 阿斯顿维拉 | 英超 | 右膝前十字韧带 | 比赛（世界杯，比利时对美国） | [查看公告](https://bbc.com.im/sport/football/articles/c862nw2xj0jo) |
 | 2026-08-06 | 乌切 | Christantus Uche | 中场 | 赫塔菲 | 西甲 | 右膝前十字韧带、外侧副韧带撕裂，半月板损伤及膝周骨折 | 比赛（季前赛，对摩纳哥） | [查看公告](https://www.getafecf.com/noticias/parte-medico-uche?feature=share) |
 | 2026-08-09 | 阿贝热尔 | Laurent Abergel | 中场 | 尼斯 | 法甲 | 右膝前十字韧带 | 比赛（对卡利亚里） | [查看公告](https://www.ogcnice.com/fr/article/130653/rupture-du-ligament-croise-anterieur-pour-laurent-abergel.html) |
 | 2026-08-10 | 巴尔德吉 | Roony Bardghji | 前锋 | 巴塞罗那 | 西甲 | 右膝前十字韧带 | 训练 | [查看公告](https://www.fcbarcelona.com/en/football/first-team/news/4557677/roony-bardghji-injury-news) |
@@ -32,3 +32,4 @@ layout: acl
 | 2026-11-01 | 阿尔瓦罗-曼蒂利亚 | Álvaro Mantilla | 后卫 | 桑坦德竞技 | 西甲 | 右膝前十字韧带 | 比赛（对皇家马德里） | [查看公告](https://www.realracingclub.es/noticias/mantilla-tiene-roto-el-ligamento-cruzado-anterior-de-la-rodilla-derecha1) |
 | 2026-11-12 | 阿尔方-冈萨雷斯 | Alfonso González（Alfon） | 前锋 | 塞维利亚 | 西甲 | 右膝前十字韧带 | 训练（一线队） | [查看公告](https://sevillafc.es/actualidad/noticias/parte-medico-alfon-gonzalez-noviembre-2026) |
 | 2026-11-18 | 卡拉特拉瓦 | Àlex Calatrava | 中场 | 西班牙人 | 西甲 | 左膝前十字韧带 | 训练（一线队） | [查看公告](https://www.rcdespanyol.com/en/new/informe-medic-cala/21051) |
+| 2026-11-21 | 德西雷-杜埃 | Désiré Doué | 前锋 | 巴黎圣日耳曼 | 法甲 | 右膝前十字韧带断裂 | 比赛（法甲，对尼斯） | [查看公告](https://www.psg.fr/content/communique-medical-concernant-desire-doue-psg-2026-2027) |
