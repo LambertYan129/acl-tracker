@@ -62,6 +62,14 @@ dialog h2,dialog h3,dialog p { margin:0 }
 dialog h2 { font-size:29px; line-height:1.2 }
 dialog .profile { display:flex; align-items:center; gap:14px }
 dialog .portrait { width:72px; height:72px }
+.portrait[src$="liga-luis-pires.webp"] {
+  object-view-box: inset(0 15.4% 49.35% 15.4%);
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  background: radial-gradient(circle at 45% 35%, white 40%, #eceeee 100%);
+  box-shadow: inset 0 0 0 1px #d7dcda;
+}
 dialog .meta { display:flex; align-items:center; gap:6px; margin:10px 0 4px }
 dialog .meta img { width:20px; height:20px; object-fit:contain }
 dialog .facts { border-bottom:1px solid var(--line); padding-bottom:18px; color:var(--muted) }
@@ -100,3 +108,6 @@ dialog .nationality img { width: 20px; height: 15px; object-fit: contain; }
 .season-links { position:absolute; z-index:5; top:calc(100% + 8px); left:0; display:grid; min-width:max-content; padding:4px; background:white; border:1px solid var(--line); border-radius:8px; box-shadow:0 6px 18px #16332d1a; }
 .season-links a { display:block; padding:11px 14px; font-size:16px; text-decoration:none; }
 .season-links a:hover,.season-links a[aria-current] { background:#f1f6f0; }
+
+dialog .bio-item { white-space: nowrap; }
+.archive-count { color: var(--muted); margin: 0 0 1rem; }

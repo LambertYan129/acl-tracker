@@ -4,7 +4,7 @@
     "flag": "assets/acl/flags/de.webp",
     "age": 31,
     "event": "不来梅下午队训时伤及右膝，随后接受 MRI。受伤时俱乐部写为 31 岁。",
-    "injury": "右膝十字韧带撕裂，公告措辞未区分前后束。",
+    "injury": "右膝前十字韧带损伤。云达不来梅确认右膝十字韧带撕裂，7 月 19 日完成手术。",
     "noticeDate": "2025-07-16",
     "originalDate": "2025-07-17",
     "extraUrl": "https://www.werder.de/news/maenner/2025-2026/mitchell-weiser-erfolgreich-operiert-190725",
@@ -31,7 +31,13 @@
     },
     "birthday": "1994-04-21",
     "portrait": "assets/acl/players/fm-92016244.webp",
-    "portraitSource": "https://www.geniescout.com/scope/92016244.png"
+    "portraitSource": "https://www.geniescout.com/scope/92016244.png",
+    "links": [
+      {
+        "label": "查看报道",
+        "url": "https://www.bundesliga.com/en/bundesliga/news/werder-bremen-s-mitchell-weiser-injury-cruciate-ligament-33154"
+      }
+    ]
   },
   "2025-07-19|Logan Costa": {
     "nationality": "佛得角",
@@ -263,7 +269,7 @@
     "flag": "assets/acl/flags/jp.webp",
     "age": 27,
     "event": "德甲首轮客场对勒沃库森时受伤；町田浩树的球员名拼写为 Koki Machida。",
-    "injury": "左膝十字韧带撕裂；Sky Sport 的报道未在该条细分前后束。",
+    "injury": "左膝前十字韧带断裂。日媒在复出报道中明确诊断与侧别。",
     "noticeDate": "2025-08-24",
     "originalDate": "2025-08-23",
     "extraUrl": "https://bulinews.com/hoffenheim-suffer-double-injury-blow",
@@ -281,7 +287,13 @@
     },
     "birthday": "1997-08-25",
     "portrait": "assets/acl/players/fm-45100974.webp",
-    "portraitSource": "https://www.geniescout.com/scope/45100974.png"
+    "portraitSource": "https://www.geniescout.com/scope/45100974.png",
+    "links": [
+      {
+        "label": "查看报道",
+        "url": "https://news.livedoor.com/article/detail/32311523/"
+      }
+    ]
   },
   "日期待查|Beñat Prados": {
     "nationality": "西班牙",
@@ -601,7 +613,7 @@
     "flag": "assets/acl/flags/gr.webp",
     "age": 19,
     "event": "英超对阿斯顿维拉时在上半场中段伤退；12 月 5 日已有初报。",
-    "injury": "俱乐部随后确认前十字韧带损伤，赛季报销；右膝为原录，所查公告未明确侧别。",
+    "injury": "右膝前十字韧带断裂。布莱顿确认 ACL 伤情并宣布赛季报销，希腊 Sport24 报道为右膝。",
     "noticeDate": "2025-12-12",
     "originalDate": "2025-12-03",
     "extraUrl": "https://www.brightonandhovealbion.com/media-article/mft-injury-update-stefanos-tzimas-bha-west-ham-pl-december-2025",
@@ -619,7 +631,13 @@
     },
     "birthday": "2006-01-06",
     "portrait": "assets/acl/players/fm-2000227373.webp",
-    "portraitSource": "https://www.geniescout.com/scope/2000227373.png"
+    "portraitSource": "https://www.geniescout.com/scope/2000227373.png",
+    "links": [
+      {
+        "label": "查看伤情报道",
+        "url": "https://www.sport24.gr/football/tzimas-o-19xronos-ellinas-epithetikos-ipesti-rixi-prosthiou-xiastou-kai-tha-xasei-to-ipoloipo-tis-sezon/"
+      }
+    ]
   },
   "2025-12-03|Mattia Felici": {
     "nationality": "意大利",
@@ -881,7 +899,7 @@
     "flag": "assets/acl/flags/de.webp",
     "age": 32,
     "event": "德甲对拜仁慕尼黑的上半场受伤。",
-    "injury": "左膝十字韧带撕裂；俱乐部后续明确为前十字韧带。",
+    "injury": "左膝前十字韧带断裂。多特蒙德初报确认左膝十字韧带伤，后续报道明确为 ACL。",
     "noticeDate": "2026-03-01",
     "originalDate": "2026-02-28",
     "extraUrl": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/9/10/Defensive-Duo-Back-for-the-Bundesliga-Match-Against-Paderborn.html",
@@ -905,7 +923,13 @@
     },
     "birthday": "1994-01-12",
     "portrait": "assets/acl/players/fm-92021718.webp",
-    "portraitSource": "https://www.geniescout.com/scope/92021718.png"
+    "portraitSource": "https://www.geniescout.com/scope/92021718.png",
+    "links": [
+      {
+        "label": "查看报道",
+        "url": "https://wtop.com/sports/2026/03/dortmund-captain-emre-can-will-miss-the-rest-of-the-season-with-a-torn-acl/"
+      }
+    ]
   },
   "2026-03-02|Rodrygo": {
     "nationality": "巴西",
@@ -1013,7 +1037,7 @@
     "flag": "assets/acl/flags/fr.webp",
     "age": 17,
     "event": "勒阿弗尔训练时受伤；4 月 24 日是报道日，所查报道未给出训练的确切日期。",
-    "injury": "报道指膝部十字韧带受伤，未明确侧别和前后束。",
+    "injury": "前十字韧带损伤，侧别未公开。法国媒体报道他在勒阿弗尔训练中伤及十字韧带。",
     "noticeDate": "2026-04-24",
     "originalDate": "2026-04-24",
     "extraUrl": "https://www.leparisien.fr/sports/football/ligue-1/ligue-1-grosse-blessure-pour-lespoir-du-havre-stephan-zagadou-24-04-2026-OVV2RHK47VFPJB3PNHXMDWZBTU.php",
@@ -1121,7 +1145,7 @@
     "flag": "assets/acl/flags/uy.webp",
     "age": 25,
     "event": "世界杯小组赛乌拉圭对西班牙，上半场伤退；按比赛当地日期为 6 月 26 日。",
-    "injury": "曼联初报膝韧带损伤。EFE 报道左膝十字韧带断裂，后续媒体报道为前十字韧带。",
+    "injury": "左膝前十字韧带断裂。EFE 引述乌拉圭足协消息报为左膝，A Bola 术后报道也写左膝；AS 早期报道称右膝，本表采用足协消息及术后报道。",
     "noticeDate": "2026-06-28",
     "originalDate": "2026-06-27",
     "extraUrl": "https://efe.com/deportes/2026-06-28/manuel-ugarte-rotura-ligamentos-cruzados-uruguay/",
@@ -1138,7 +1162,13 @@
     },
     "birthday": "2001-04-11",
     "portrait": "assets/acl/players/fm-78084541.webp",
-    "portraitSource": "https://www.geniescout.com/scope/78084541.png"
+    "portraitSource": "https://www.geniescout.com/scope/78084541.png",
+    "links": [
+      {
+        "label": "查看报道",
+        "url": "https://www.abola.pt/noticias/ugarte-operado-com-sucesso-a-lesao-grave-sofrida-no-mundial-2026-2026071511382430292"
+      }
+    ]
   },
   "2026-02-09|Samu Aghehowa": {
     "nationality": "西班牙",
@@ -1169,7 +1199,7 @@
     "flag": "assets/acl/flags/nl.webp",
     "age": 29,
     "event": "荷甲对乌得勒支时受伤。",
-    "injury": "PSV 确认十字韧带损伤且需手术；公告未细分前后束和左右膝。",
+    "injury": "右膝前十字韧带损伤。PSV 确认十字韧带伤，荷兰媒体转引主帅消息确认右膝手术。",
     "noticeDate": "2026-04-05",
     "originalDate": "2026-04-04",
     "filterLeague": "其他",
@@ -1186,6 +1216,8 @@
     },
     "birthday": "1997-01-12",
     "portrait": "assets/acl/players/fm-37057744.webp",
-    "portraitSource": "https://www.geniescout.com/scope/37057744.png"
+    "portraitSource": "https://www.geniescout.com/scope/37057744.png",
+    "extraUrl": "https://www.rtl.nl/nieuws/sport/artikel/5599303/psver-schouten-kan-na-operatie-aan-herstel-beginnen",
+    "extraLabel": "查看报道"
   }
 }

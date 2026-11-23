@@ -8,6 +8,7 @@ const table = document.querySelector("main table");
       const data = document.querySelector("#season-data").dataset;
       const players = JSON.parse(data.players) || {};
       const badges = JSON.parse(data.badges) || {};
+      const measurements = JSON.parse(data.measurements || "{}");
       const historicalBadges = JSON.parse(data.historyBadges || "{}");
       const notes = { ...JSON.parse(data.notes), ...JSON.parse(data.history || "{}") };
       function assetUrl(src) {
@@ -89,6 +90,8 @@ const table = document.querySelector("main table");
         markers.replaceChildren();
         graphic.hidden = !record;
         if (!record) return;
+        const version = record.versionLabel || "FM27";
+        graphic.querySelector(".fm-position-label").textContent = version + " 位置";
         const descriptions = [];
         for (const [code, [x, y, name]] of Object.entries(spots)) {
           const score = record.scores?.[code];
@@ -107,7 +110,7 @@ const table = document.querySelector("main table");
           mark.append(title, box, text);
           markers.append(mark);
         }
-        svg.setAttribute("aria-label", "FM27 位置适应度：" + descriptions.join("，"));
+        svg.setAttribute("aria-label", version + " 位置适应度：" + descriptions.join("，"));
       }
       function showRecord(row) {
         const cells = row.cells;
@@ -122,7 +125,15 @@ const table = document.querySelector("main table");
         dialog.querySelector("#record-name").textContent = name;
         dialog.querySelector("#english").textContent = english;
         const copyCell = cell => Array.from(cell.childNodes, node => node.cloneNode(true));
-        dialog.querySelector(".meta").replaceChildren(...copyCell(cells[4]), ...copyCell(cells[5]), " · " + position);
+        const physical = measurements[english] || {};
+        const meta = dialog.querySelector(".meta");
+        meta.replaceChildren(...copyCell(cells[4]), ...copyCell(cells[5]));
+        for (const label of [position, physical.heightCm && physical.heightCm + " cm", physical.weightKg && physical.weightKg + " kg"].filter(Boolean)) {
+          const item = document.createElement("span");
+          item.className = "bio-item";
+          item.textContent = "· " + label;
+          meta.append(item);
+        }
         const years = note.age ?? (player?.birthday ? ageOnDate(player.birthday, date) : null);
         const facts = dialog.querySelector(".facts p");
         const nationality = document.createElement("span");

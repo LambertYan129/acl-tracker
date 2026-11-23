@@ -10,7 +10,7 @@ title: "2026–27 赛季五大联赛 ACL 伤病统计"
 | 2026-08-06 | 乌切 | Christantus Uche | 中场 | 赫塔菲 | 西甲 | 右膝前十字韧带、外侧副韧带撕裂，半月板损伤及膝周骨折 | 比赛（季前赛，对摩纳哥） | [查看公告](https://www.getafecf.com/noticias/parte-medico-uche?feature=share) |
 | 2026-08-09 | 阿贝热尔 | Laurent Abergel | 中场 | 尼斯 | 法甲 | 右膝前十字韧带 | 比赛（对卡利亚里） | [查看公告](https://www.ogcnice.com/fr/article/130653/rupture-du-ligament-croise-anterieur-pour-laurent-abergel.html) |
 | 2026-08-10 | 巴尔德吉 | Roony Bardghji | 前锋 | 巴塞罗那 | 西甲 | 右膝前十字韧带 | 训练 | [查看公告](https://www.fcbarcelona.com/en/football/first-team/news/4557677/roony-bardghji-injury-news) |
-| 2026-08-15 | 阿萨内-迪奥塞 | Assane Dioussé | 中场 | 欧塞尔 | 法甲 | 具体位置未知 | 比赛（友谊赛，对不来梅） | [查看公告](https://www.lequipe.fr/Football/Actualites/Auxerre-s-offre-une-victoire-de-prestige-face-au-Werder-Breme-a-une-semaine-de-la-reprise-de-la-Ligue-1/1711205) |
+| 2026-08-15 | 阿萨内-迪奥塞 | Assane Dioussé | 中场 | 欧塞尔 | 法甲 | 前十字韧带损伤（侧别未公开） | 比赛（友谊赛，对不来梅） | [查看公告](https://www.lequipe.fr/Football/Actualites/Auxerre-sans-assane-diousse-gravement-blesse-au-genou-theo-bair-ni-remy-labeau-lascary-a-lens/1712278) |
 | 2026-08-22 | 沙迪-里亚德 | Chadi Riad | 后卫 | 水晶宫 | 英超 | 左膝前十字韧带 | 比赛（对埃弗顿） | [查看公告](https://www.cpfc.co.uk/news/match-reports/match-report-highlights-everton-crystal-palace-august-2026/) |
 | 2026-08-29 | 纳夫罗茨基 | Maik Nawrocki | 后卫 | 朗斯 | 法甲 | 左膝前十字韧带 | 比赛（对斯特拉斯堡） | [查看公告](https://www.footmercato.net/a571976296087128634-lens-maik-nawrocki-victime-dune-rupture-aux-ligaments-croises) |
 | 2026-08-29 | 康斯坦泰利亚斯 | Giannis Konstantelias | 中场 | 多特蒙德 | 德甲 | 左膝前十字韧带 | 比赛（对汉堡） | [查看公告](https://www.bundesliga.com/en/bundesliga/news/borussia-dortmund-giannis-konstantelias-acl-injury-hamburg-kovac-38907/) |
