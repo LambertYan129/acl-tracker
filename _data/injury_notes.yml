@@ -57,3 +57,10 @@
   event: "阿尔方-冈萨雷斯在塞维利亚一线队训练中受伤。"
 "2026-11-18|Àlex Calatrava":
   event: "卡拉特拉瓦在西班牙人一线队训练中受伤。"
+"2026-11-22|Lorenzo Colombo":
+  event: "科隆博在热那亚客场 2–0 战胜萨索洛的意甲比赛末段替补登场后右膝受伤。热那亚 11 月 23 日公布检查结果，并宣布将安排专科会诊和韧带重建手术。"
+  injury: "右膝前十字韧带损伤，拟接受韧带重建手术。"
+  noticeDate: "2026-11-23"
+  sourceLabel: "热那亚 · 科隆博医疗公告"
+  extraLabel: "ANSA · 科隆博伤情报道"
+  extraUrl: "https://www.ansa.it/sito/notizie/sport/2026/11/23/calcio-genoa-per-colombo-rottura-del-legamento-crociato-anteriore-destro_8090c514-ea6f-4b4f-bf52-84a9029e582e.html"

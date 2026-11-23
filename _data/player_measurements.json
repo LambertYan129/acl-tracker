@@ -662,5 +662,10 @@
   "Luís Pires": {
     "heightCm": 188,
     "physicalSource": "https://www.transfermarkt.com.br/luis-pires/profil/spieler/1153785"
+  },
+  "Lorenzo Colombo": {
+    "heightCm": 183,
+    "weightKg": 74,
+    "physicalSource": "https://www.registacalcio.it/giocatori/32777439"
   }
 }

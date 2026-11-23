@@ -160,3 +160,9 @@
   flag: "assets/acl/flags/fr.webp"
   portrait: "assets/acl/players/desire-doue.webp"
   portraitSource: "https://www.geniescout.com/scope/2000115202.png"
+"Lorenzo Colombo":
+  birthday: "2002-03-08"
+  nationality: "意大利"
+  flag: "assets/acl/flags/it.webp"
+  portrait: "assets/acl/players/lorenzo-colombo.webp"
+  portraitSource: "https://www.geniescout.com/scope/43424893.png"

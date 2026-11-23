@@ -302,5 +302,14 @@
       "AMR": 15,
       "ST": 15
     }
+  },
+  "Lorenzo Colombo": {
+    "source": "https://efem.club/players/43424893-Lorenzo-Colombo",
+    "version": "27.0.0",
+    "scores": {
+      "AML": 10,
+      "AMR": 11,
+      "ST": 20
+    }
   }
 }
