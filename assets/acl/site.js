@@ -129,12 +129,18 @@ const table = document.querySelector("main table");
         const physical = measurements[english] || {};
         const meta = dialog.querySelector(".meta");
         meta.replaceChildren(...copyCell(cells[4]), ...copyCell(cells[5]));
+        const physicalDetails = document.createElement("span");
+        physicalDetails.className = "physical-details";
         for (const label of [position, physical.heightCm && physical.heightCm + " cm", physical.weightKg && physical.weightKg + " kg"].filter(Boolean)) {
           const item = document.createElement("span");
           item.className = "bio-item";
-          item.textContent = "· " + label;
-          meta.append(item);
+          const separator = document.createElement("span");
+          separator.className = "bio-separator";
+          separator.textContent = "· ";
+          item.append(separator, label);
+          physicalDetails.append(item);
         }
+        meta.append(physicalDetails);
         const years = note.age ?? (player?.birthday ? ageOnDate(player.birthday, date) : null);
         const facts = dialog.querySelector(".facts p");
         const nationality = document.createElement("span");
@@ -144,9 +150,21 @@ const table = document.querySelector("main table");
         const personalDetails = [player?.birthday && player.birthday + " 出生",
           years !== null && "受伤时 " + years + " 岁"].filter(Boolean);
         facts.replaceChildren(...(nationality.textContent ? [nationality] : []));
-        for (const detail of personalDetails) {
-          if (facts.hasChildNodes()) facts.append("　·　");
-          facts.append(detail);
+        if (personalDetails.length) {
+          const dates = document.createElement("span");
+          dates.className = "personal-dates";
+          for (const [index, detail] of personalDetails.entries()) {
+            const item = document.createElement("span");
+            if (index > 0 || facts.hasChildNodes()) {
+              const separator = document.createElement("span");
+              separator.className = "bio-separator";
+              separator.textContent = "　·　";
+              item.append(separator);
+            }
+            item.append(detail);
+            dates.append(item);
+          }
+          facts.append(dates);
         }
         dialog.querySelector("#event").textContent = date + " · " + (note.event || values[8]) + (note.noticeDate ? "（公告或报道：" + note.noticeDate + "）" : "");
         dialog.querySelector("#injury").textContent = note.injury || values[7];

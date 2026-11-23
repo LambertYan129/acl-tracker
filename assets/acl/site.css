@@ -110,4 +110,29 @@ dialog .nationality img { width: 20px; height: 15px; object-fit: contain; }
 .season-links a:hover,.season-links a[aria-current] { background:#f1f6f0; }
 
 dialog .bio-item { white-space: nowrap; }
+dialog .physical-details,
+dialog .personal-dates { display: contents; }
+
+@media (max-width: 600px) {
+  dialog .physical-details {
+    display: flex;
+    flex: 0 0 100%;
+    gap: 6px;
+    align-items: baseline;
+  }
+  dialog .facts .nationality { display: block; }
+  dialog .personal-dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 10px;
+    margin-top: 2px;
+  }
+  dialog .personal-dates > span { white-space: nowrap; }
+  dialog .physical-details > :first-child .bio-separator,
+  dialog .personal-dates .bio-separator { display: none; }
+}
+
+@media (max-width: 360px) {
+  dialog .record-top { grid-template-columns: minmax(0, 1fr); }
+}
 .archive-count { color: var(--muted); margin: 0 0 1rem; }
