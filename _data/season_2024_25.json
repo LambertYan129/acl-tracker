@@ -39,15 +39,20 @@
     "noticeDate": "2024-08-02",
     "flag": "assets/acl/flags/it.webp",
     "positions": {
-      "versionLabel": "FM24",
-      "source": "https://www.fmscout.com/player/43041177/alessandro-florenzi.html?rev=24.3",
+      "version": "24.40",
+      "versionLabel": "FM24.4",
+      "sourceLabel": "搜猪网 24.40 球员详情截图",
       "scores": {
+        "DL": 12,
         "DR": 20,
-        "WBR": 20
-      },
-      "listed": [
-        "MR"
-      ]
+        "WBL": 12,
+        "WBR": 20,
+        "ML": 9,
+        "MC": 11,
+        "MR": 16,
+        "AML": 7,
+        "AMR": 12
+      }
     }
   },
   "2024-07-27|Enso González": {
@@ -1368,7 +1373,13 @@
     "filterLeague": "其他",
     "extraLabel": "查看报道",
     "extraUrl": "https://www.zerozero.pt/noticias/boavista-joao-goncalves-e-luis-pires-operados-apos-lesoes-graves/681258",
-    "portrait": "assets/acl/players/liga-luis-pires.webp"
+    "portrait": "assets/acl/players/liga-luis-pires.webp",
+    "positions": {
+      "versionLabel": null,
+      "scores": {
+        "GK": 20
+      }
+    }
   },
   "2024-11-26|Karim Konaté": {
     "birthday": "2004-03-21",

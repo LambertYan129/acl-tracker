@@ -90,8 +90,9 @@ const table = document.querySelector("main table");
         markers.replaceChildren();
         graphic.hidden = !record;
         if (!record) return;
-        const version = record.versionLabel || "FM27";
-        graphic.querySelector(".fm-position-label").textContent = version + " 位置";
+        const { versionLabel = "FM27" } = record;
+        const positionTitle = versionLabel ? versionLabel + " 位置" : "场上位置";
+        graphic.querySelector(".fm-position-label").textContent = positionTitle;
         const descriptions = [];
         for (const [code, [x, y, name]] of Object.entries(spots)) {
           const score = record.scores?.[code];
@@ -110,7 +111,7 @@ const table = document.querySelector("main table");
           mark.append(title, box, text);
           markers.append(mark);
         }
-        svg.setAttribute("aria-label", version + " 位置适应度：" + descriptions.join("，"));
+        svg.setAttribute("aria-label", positionTitle + "适应度：" + descriptions.join("，"));
       }
       function showRecord(row) {
         const cells = row.cells;
