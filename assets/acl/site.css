@@ -13,6 +13,21 @@
     table { width: 100%; border-spacing: 0; background: white; font-size: .95rem; }
     th, td { padding: .74rem .68rem; text-align: left; }
     th { position: sticky; top: 0; background: var(--ink); color: #fff; white-space: nowrap; font-size: .85rem; font-weight: 600; }
+    .column-sort, .column-filter {
+      border: 1px solid #91aba1;
+      border-radius: 4px;
+      color: inherit;
+      background: transparent;
+      font: inherit;
+      cursor: pointer;
+      min-height: 38px;
+      padding: 4px 8px;
+    }
+    .column-sort { display: inline-flex; align-items: center; gap: 6px; }
+    .column-sort:hover, .column-filter:hover { background: #294a40; }
+    th :focus-visible { outline-color: white; outline-offset: 2px; }
+    .column-filter option { color: var(--ink); background: white; }
+    .mobile-date-order { display: none; }
     td { border-bottom: 1px solid var(--line); }
     td:nth-child(1) { font-variant-numeric: tabular-nums; color: var(--muted); }
     td:nth-child(2) { font-weight: 700; }
@@ -35,6 +50,10 @@
       main { width: auto; margin: 16px; }
       .tools { gap: 8px; }
       input { flex: 1 1 100%; }
+      .tools select { flex: 1 1 0; min-width: 0; }
+      .tools .mobile-date-order { display: block; }
+      .tools output { flex-basis: 100%; text-align: right; }
+      .column-sort, .column-filter { display: none; }
       .scroll { max-height: none; overflow: visible; }
       table, tbody { display: block; }
       thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }

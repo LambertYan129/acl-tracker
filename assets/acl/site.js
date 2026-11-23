@@ -4,7 +4,9 @@ const table = document.querySelector("main table");
       const search = tools.querySelector("input");
       const league = tools.querySelector("select");
       const count = tools.querySelector("output");
-      const rows = Array.from(table.tBodies[0].rows);
+      const body = table.tBodies[0];
+      const rows = Array.from(body.rows);
+      const mobile = matchMedia("(max-width: 760px)");
       const data = document.querySelector("#season-data").dataset;
       const players = JSON.parse(data.players) || {};
       const badges = JSON.parse(data.badges) || {};
@@ -30,6 +32,12 @@ const table = document.querySelector("main table");
         return Number(injuryDate.slice(0, 4)) - Number(birthday.slice(0, 4))
           - Number(injuryDate.slice(5) < birthday.slice(5));
       }
+      function injuryGroup(text) {
+        if (text.includes("PCL") || text.includes("后十字韧带")) return "后十字韧带（PCL）";
+        if (text.includes("左膝")) return "左膝前十字韧带";
+        if (text.includes("右膝")) return "右膝前十字韧带";
+        return text.includes("待核实") ? "ACL 待核实" : "侧别未确定";
+      }
       const birthdayHeading = document.createElement("th");
       birthdayHeading.scope = "col";
       birthdayHeading.textContent = "生日（受伤时年龄）";
@@ -41,14 +49,19 @@ const table = document.querySelector("main table");
         const leagueName = cells[5].textContent.trim();
         const note = notes[cells[0].textContent.trim() + "|" + english];
         const player = { ...players[english], ...note };
+        const date = cells[0].textContent.trim();
         row.dataset.league = note?.filterLeague || leagueName;
+        row.dataset.injuryDate = /^\d{4}-\d{2}-\d{2}$/.test(date) ? date.replaceAll("-", "") : "";
+        row.dataset.injuryGroup = injuryGroup(cells[6].textContent);
+        row.dataset.injuryEvent = cells[7].textContent.trim();
         addImage(cells[1], player.portrait, true);
         addImage(cells[4], historicalBadges.clubs?.[club] || badges.clubs[club]);
         addImage(cells[5], historicalBadges.leagues?.[leagueName] || badges.leagues[leagueName]);
         const birthday = row.insertCell(6);
         birthday.className = "birthday";
         birthday.textContent = player?.birthday ?? "—";
-        const years = note?.age ?? (player?.birthday ? ageOnDate(player.birthday, cells[0].textContent.trim()) : null);
+        const years = note?.age ?? (player?.birthday ? ageOnDate(player.birthday, date) : null);
+        row.dataset.injuryAge = years ?? "";
         if (years !== null && !player?.birthday) birthday.textContent = years + " 岁";
         if (player?.birthday) {
           if (years !== null) {
@@ -166,7 +179,9 @@ const table = document.querySelector("main table");
           }
           facts.append(dates);
         }
-        dialog.querySelector("#event").textContent = date + " · " + (note.event || values[8]) + (note.noticeDate ? "（公告或报道：" + note.noticeDate + "）" : "");
+        const eventDate = note.dateBasis ? date + "（" + note.dateBasis + "日期）" : date;
+        const notice = note.noticeDate && (!note.dateBasis || note.noticeDate !== date) ? "（公告或报道：" + note.noticeDate + "）" : "";
+        dialog.querySelector("#event").textContent = eventDate + " · " + (note.event || values[8]) + notice;
         dialog.querySelector("#injury").textContent = note.injury || values[7];
         dialog.querySelector("#attribution").textContent = note.injurySource || "";
         const links = Array.from(cells[9].querySelectorAll("a"), link => link.cloneNode(true));
@@ -215,12 +230,85 @@ const table = document.querySelector("main table");
       scroll.setAttribute("aria-label", "球员伤病名单");
       table.before(tools, scroll);
       scroll.append(table);
+      const dateOrder = document.createElement("select");
+      dateOrder.className = "mobile-date-order";
+      dateOrder.setAttribute("aria-label", "按受伤日期排序");
+      dateOrder.add(new Option("日期正序", "ascending"));
+      dateOrder.add(new Option("日期倒序", "descending"));
+      league.after(dateOrder);
+
+      const header = table.tHead.rows[0].cells;
+      const desktopSort = { key: "injuryDate", direction: "ascending" };
+      const sortControls = [
+        [header[0], "injuryDate", "日期"],
+        [header[6], "injuryAge", "受伤时年龄"]
+      ].map(([cell, key, sortLabel]) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "column-sort";
+        const arrow = document.createElement("span");
+        arrow.setAttribute("aria-hidden", "true");
+        button.append(cell.textContent.trim(), arrow);
+        cell.replaceChildren(button);
+        button.addEventListener("click", () => {
+          desktopSort.direction = desktopSort.key === key && desktopSort.direction === "ascending" ? "descending" : "ascending";
+          desktopSort.key = key;
+          if (key === "injuryDate") dateOrder.value = desktopSort.direction;
+          applySort();
+        });
+        return { cell, key, sortLabel, button, arrow };
+      });
+
+      function columnFilter(cell, label, key, options) {
+        const select = document.createElement("select");
+        select.className = "column-filter";
+        select.setAttribute("aria-label", label + "筛选");
+        select.add(new Option(label + " · 全部", ""));
+        const available = new Set(rows.map(row => row.dataset[key]));
+        for (const option of options) {
+          if (available.has(option)) select.add(new Option(option, option));
+        }
+        select.addEventListener("change", filter);
+        cell.replaceChildren(select);
+        return select;
+      }
+
+      const injuryFilter = columnFilter(header[7], "受伤位置", "injuryGroup", [
+        "左膝前十字韧带", "右膝前十字韧带", "侧别未确定", "ACL 待核实", "后十字韧带（PCL）"
+      ]);
+      const eventFilter = columnFilter(header[8], "受伤信息", "injuryEvent", ["比赛", "训练", "场景未确认"]);
+
+      function applySort() {
+        const { key, direction } = mobile.matches ? { key: "injuryDate", direction: dateOrder.value } : desktopSort;
+        const sign = direction === "ascending" ? 1 : -1;
+        const ordered = [...rows].sort((a, b) => {
+          const first = a.dataset[key];
+          const second = b.dataset[key];
+          if (first === second) return 0;
+          if (first === "") return 1;
+          if (second === "") return -1;
+          return sign * (Number(first) - Number(second));
+        });
+        body.append(...ordered);
+        for (const control of sortControls) {
+          if (control.key === desktopSort.key) control.cell.setAttribute("aria-sort", desktopSort.direction);
+          else control.cell.removeAttribute("aria-sort");
+          control.arrow.textContent = control.key === desktopSort.key ? (desktopSort.direction === "ascending" ? "↑" : "↓") : "↕";
+          const next = control.key === desktopSort.key && desktopSort.direction === "ascending" ? "倒序" : "正序";
+          control.button.setAttribute("aria-label", "按" + control.sortLabel + next + "排列");
+        }
+        scroll.scrollTop = 0;
+      }
+
       function filter() {
         const query = search.value.trim().toLocaleLowerCase();
         let visible = 0;
         for (const row of rows) {
           const matchesName = [1, 2, 4].some(i => row.cells[i].textContent.toLocaleLowerCase().includes(query));
-          row.hidden = !matchesName || (league.value !== "" && row.dataset.league !== league.value);
+          const matchesLeague = !league.value || row.dataset.league === league.value;
+          const matchesColumns = mobile.matches || ((!injuryFilter.value || row.dataset.injuryGroup === injuryFilter.value) &&
+            (!eventFilter.value || row.dataset.injuryEvent === eventFilter.value));
+          row.hidden = !(matchesName && matchesLeague && matchesColumns);
           if (!row.hidden) visible++;
         }
         count.textContent = visible === rows.length ? "共 " + visible + " 条记录" : visible + " / " + rows.length + " 条记录";
@@ -229,6 +317,15 @@ const table = document.querySelector("main table");
       }
       search.addEventListener("input", filter);
       league.addEventListener("change", filter);
+      dateOrder.addEventListener("change", () => {
+        if (desktopSort.key === "injuryDate") desktopSort.direction = dateOrder.value;
+        applySort();
+      });
+      mobile.addEventListener("change", () => {
+        applySort();
+        filter();
+      });
+      applySort();
       filter();
       tools.hidden = false;
     }

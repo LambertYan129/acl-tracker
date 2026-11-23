@@ -76,7 +76,7 @@
     "noticeDate": "2024-07-28",
     "flag": "assets/acl/flags/py.webp"
   },
-  "日期待查|Terem Moffi": {
+  "2024-07-30|Terem Moffi": {
     "birthday": "1999-05-25",
     "portrait": "assets/acl/players/fm-47079007.webp",
     "positions": {
@@ -95,7 +95,8 @@
     "noticeDate": "2024-07-30",
     "flag": "assets/acl/flags/ng.webp",
     "extraUrl": "https://www.ogcnice.com/en/fiche/2719/terem-moffi.html",
-    "extraLabel": "补充来源"
+    "extraLabel": "补充来源",
+    "dateBasis": "俱乐部公告"
   },
   "2024-08-04|Gianluca Scamacca": {
     "birthday": "1999-01-01",
@@ -837,7 +838,7 @@
     "noticeDate": "2025-01-08",
     "flag": "assets/acl/flags/tr.webp"
   },
-  "日期待查|Nathan Buayi-Kiala": {
+  "2025-01-08|Nathan Buayi-Kiala": {
     "birthday": "2004-02-29",
     "portrait": "assets/acl/players/fm-2000011396.webp",
     "positions": {
@@ -861,7 +862,8 @@
         "label": "查看伤情报道",
         "url": "https://lepetitlillois.com/2025/04/16/ligue-1-j30-des-absences-et-des-incertitudes-prejudiciables-en-perspective-dans-lyonne-avant-losc/"
       }
-    ]
+    ],
+    "dateBasis": "俱乐部公告"
   },
   "2025-01-11|Niklas Schmidt": {
     "birthday": "1998-03-01",
@@ -1009,7 +1011,7 @@
     "noticeDate": "2025-02-06",
     "flag": "assets/acl/flags/fr.webp"
   },
-  "日期待查|Chadi Riad": {
+  "2025-01-28|Chadi Riad": {
     "birthday": "2003-06-17",
     "portrait": "assets/acl/players/fm-2000058232.webp",
     "positions": {
@@ -1035,7 +1037,8 @@
         "label": "查看伤情报道",
         "url": "https://www.elbotola.com/en/article/2026-01-26-19-33-52.html"
       }
-    ]
+    ],
+    "dateBasis": "媒体报道"
   },
   "2025-01-30|Radu Drăgușin": {
     "birthday": "2002-02-03",
@@ -1300,7 +1303,7 @@
     "extraUrl": "https://www.lequipe.fr/Football/Actualites/Rupture-des-ligaments-croises-confirmee-pour-le-defenseur-de-nice-mohamed-abdelmonem/1557241",
     "extraLabel": "补充来源"
   },
-  "日期待查|Saïdou Sow": {
+  "2025-04-29|Saïdou Sow": {
     "birthday": "2002-07-04",
     "portrait": "assets/acl/players/fm-49055608.webp",
     "positions": {
@@ -1316,7 +1319,8 @@
     "noticeDate": "2025-04-29",
     "flag": "assets/acl/flags/gn.webp",
     "extraUrl": "https://www.lequipe.fr/Football/Actualites/Saidou-sow-victime-d-une-rupture-des-ligaments-croises-a-l-entrainement-avec-le-fc-nantes/1557981",
-    "extraLabel": "补充来源"
+    "extraLabel": "补充来源",
+    "dateBasis": "俱乐部公告"
   },
   "2025-04-30|Youssouf Ndayishimiye": {
     "birthday": "1998-10-27",

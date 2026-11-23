@@ -87,13 +87,13 @@
     "portrait": "assets/acl/players/fm-37063645.webp",
     "portraitSource": "https://www.geniescout.com/scope/37063645.png"
   },
-  "日期待查|Adam Webster": {
+  "2025-07-26|Adam Webster": {
     "nationality": "英格兰",
     "flag": "assets/acl/flags/gb-eng.webp",
     "age": 30,
     "event": "在西班牙马贝拉的季前集训中训练受伤。Pete O’Rourke 于 7 月 25 日报道，布莱顿翌日发布伤情更新，具体受伤日期未公开。",
     "injury": "据 Pete O’Rourke 报道为前十字韧带（ACL）损伤。布莱顿确认膝韧带损伤并将安排手术。左右膝未公开。",
-    "noticeDate": "2025-07-25",
+    "noticeDate": "2025-07-26",
     "originalDate": "2025-07-25",
     "extraUrl": "https://www.footballinsider247.com/exclusive-brighton-rocked-by-adam-webster-acl-injury-at-pre-season-camp",
     "extraLabel": "查看报道",
@@ -114,7 +114,8 @@
     },
     "birthday": "1995-01-04",
     "portrait": "assets/acl/players/fm-29080394.webp",
-    "portraitSource": "https://www.geniescout.com/scope/29080394.png"
+    "portraitSource": "https://www.geniescout.com/scope/29080394.png",
+    "dateBasis": "俱乐部公告"
   },
   "2025-07-30|Unai Egiluz": {
     "nationality": "西班牙",
@@ -166,7 +167,7 @@
     "portrait": "assets/acl/players/fm-28093567.webp",
     "portraitSource": "https://www.geniescout.com/scope/28093567.png"
   },
-  "日期待查|Levi Colwill": {
+  "2025-08-07|Levi Colwill": {
     "nationality": "英格兰",
     "flag": "assets/acl/flags/gb-eng.webp",
     "age": 22,
@@ -188,7 +189,8 @@
     },
     "birthday": "2003-02-26",
     "portrait": "assets/acl/players/fm-28124573.webp",
-    "portraitSource": "https://www.geniescout.com/scope/28124573.png"
+    "portraitSource": "https://www.geniescout.com/scope/28124573.png",
+    "dateBasis": "俱乐部公告"
   },
   "2025-08-15|Tomáš Suslov": {
     "nationality": "斯洛伐克",
@@ -295,7 +297,7 @@
       }
     ]
   },
-  "日期待查|Beñat Prados": {
+  "2025-09-15|Beñat Prados": {
     "nationality": "西班牙",
     "flag": "assets/acl/flags/es.webp",
     "age": 25,
@@ -317,7 +319,8 @@
     },
     "birthday": "2001-02-08",
     "portrait": "assets/acl/players/fm-67277835.webp",
-    "portraitSource": "https://www.geniescout.com/scope/67277835.png"
+    "portraitSource": "https://www.geniescout.com/scope/67277835.png",
+    "dateBasis": "俱乐部公告"
   },
   "2025-09-13|Leart Paçarada": {
     "nationality": "科索沃",
@@ -420,7 +423,7 @@
     "portrait": "assets/acl/players/fm-43066936.webp",
     "portraitSource": "https://www.geniescout.com/scope/43066936.png"
   },
-  "日期待查|Edoardo Pieragnolo": {
+  "2025-10-03|Edoardo Pieragnolo": {
     "nationality": "意大利",
     "flag": "assets/acl/flags/it.webp",
     "age": 23,
@@ -441,7 +444,8 @@
     },
     "birthday": "2003-01-03",
     "portrait": "assets/acl/players/fm-43500623.webp",
-    "portraitSource": "https://www.geniescout.com/scope/43500623.png"
+    "portraitSource": "https://www.geniescout.com/scope/43500623.png",
+    "dateBasis": "俱乐部公告"
   },
   "2025-10-10|Ilias Kostis": {
     "nationality": "希腊",
@@ -551,7 +555,7 @@
     "portrait": "assets/acl/players/fm-67115581.webp",
     "portraitSource": "https://www.geniescout.com/scope/67115581.png"
   },
-  "日期待查|Fábio Carvalho": {
+  "2025-11-20|Fábio Carvalho": {
     "nationality": "葡萄牙",
     "flag": "assets/acl/flags/pt.webp",
     "age": 23,
@@ -577,7 +581,8 @@
     },
     "birthday": "2002-08-30",
     "portrait": "assets/acl/players/fm-28122195.webp",
-    "portraitSource": "https://www.geniescout.com/scope/28122195.png"
+    "portraitSource": "https://www.geniescout.com/scope/28122195.png",
+    "dateBasis": "俱乐部公告"
   },
   "2025-11-03|Bence Dárdai": {
     "nationality": "匈牙利",
@@ -1032,7 +1037,7 @@
     "portrait": "assets/acl/players/fm-2000085414.webp",
     "portraitSource": "https://www.geniescout.com/scope/2000085414.png"
   },
-  "日期待查|Stephan Zagadou": {
+  "2026-04-24|Stephan Zagadou": {
     "nationality": "法国",
     "flag": "assets/acl/flags/fr.webp",
     "age": 17,
@@ -1053,7 +1058,8 @@
     },
     "birthday": "2008-10-24",
     "portrait": "assets/acl/players/fm-2000475043.webp",
-    "portraitSource": "https://www.geniescout.com/scope/2000475043.png"
+    "portraitSource": "https://www.geniescout.com/scope/2000475043.png",
+    "dateBasis": "媒体报道"
   },
   "2026-04-25|Xavi Simons": {
     "nationality": "荷兰",
