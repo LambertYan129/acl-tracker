@@ -45,6 +45,13 @@
     .birthday { font-variant-numeric: tabular-nums; white-space: nowrap; }
     .age { color: var(--muted); }
     @media (min-width: 761px) { .age { display: block; font-size: .86rem; } }
+    @media (min-width: 761px) and (max-width: 1200px) {
+      .scroll table { min-width: 1120px; }
+      .scroll td:nth-child(2),
+      .scroll td:nth-child(3),
+      .scroll td:nth-child(5) { white-space: nowrap; }
+      .scroll td:nth-last-child(3) { min-width: 14em; }
+    }
     ::selection { background: #c6e9d4; }
     @media (max-width: 760px) {
       main { width: auto; margin: 16px; }

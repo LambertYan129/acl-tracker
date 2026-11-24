@@ -311,5 +311,15 @@
       "AMR": 11,
       "ST": 20
     }
+  },
+  "Manu Sánchez": {
+    "source": "https://efem.club/players/67284340-Manu-S%C3%A1nchez",
+    "version": "27.0.0",
+    "scores": {
+      "DL": 20,
+      "WBL": 15,
+      "ML": 12,
+      "AML": 5
+    }
   }
 }

@@ -166,3 +166,9 @@
   flag: "assets/acl/flags/it.webp"
   portrait: "assets/acl/players/lorenzo-colombo.webp"
   portraitSource: "https://www.geniescout.com/scope/43424893.png"
+"Manu Sánchez":
+  birthday: "2000-08-24"
+  nationality: "西班牙"
+  flag: "assets/acl/flags/es.webp"
+  portrait: "assets/acl/players/manu-sanchez.webp"
+  portraitSource: "https://www.geniescout.com/scope/67284340.png"

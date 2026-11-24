@@ -34,3 +34,4 @@ title: "2026–27 赛季五大联赛 ACL 伤病统计"
 | 2026-11-18 | 卡拉特拉瓦 | Àlex Calatrava | 中场 | 西班牙人 | 西甲 | 左膝前十字韧带 | 训练 | [查看公告](https://www.rcdespanyol.com/en/new/informe-medic-cala/21051) |
 | 2026-11-21 | 德西雷-杜埃 | Désiré Doué | 前锋 | 巴黎圣日耳曼 | 法甲 | 右膝前十字韧带断裂 | 比赛 | [查看公告](https://www.psg.fr/content/communique-medical-concernant-desire-doue-psg-2026-2027) |
 | 2026-11-22 | 洛伦佐-科隆博 | Lorenzo Colombo | 前锋 | 热那亚 | 意甲 | 右膝前十字韧带 | 比赛 | [查看公告](https://genoacfc.it/2026/11/23/genoa-cfc-nota-medica-3/) |
+| 2026-11-23 | 马努-桑切斯 | Manu Sánchez | 后卫 | 莱万特 | 西甲 | 左膝前十字韧带 | 比赛 | [查看公告](https://www.levanteud.com/en/news/parte-medico-asisa-or-manu-sanchez-26) |
